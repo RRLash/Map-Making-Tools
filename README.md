@@ -8,5 +8,7 @@ I'm new to GitHub, but I think it will help me get more work done, and share thi
 Thanks for stopping by (and helping out?).
 
 
-Get data
+Projects
 ========
+*Make a print map of Iguazu Falls
+*Make a print map of the Hajj
