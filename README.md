@@ -10,5 +10,5 @@ Thanks for stopping by (and helping out?).
 
 Projects
 ========
-*Make a print map of Iguazu Falls
-*Make a print map of the Hajj
+* Make a print map of Iguazu Falls
+* Make a print map of the Hajj
