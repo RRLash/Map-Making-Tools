@@ -1,0 +1,1 @@
+[Natural Earth data](http://www.naturalearthdata.com/) vector layers frequently include additional attribute fields which already classify the feature data into logical and more manageable groups or "classes."  Unfortunately, I have not been able to find good documentation about what specifically these different fields and attribute values mean in practice.
