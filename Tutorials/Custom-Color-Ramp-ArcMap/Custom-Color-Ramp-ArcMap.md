@@ -6,7 +6,7 @@ While their are a vareity of color ramps automatically available in ArcMap, I fo
    
 ![Figure 1](./Images/1 Black-White ramp ex.png)
 
-Notice how the country names of Afghanistan and Pakistan (A) China (B), and Nepal (C), while the steep slopes of the Himalyan Mountains create a dark band of black color (C) which is not an important element to this map.  By changing the color ramp to go from 15% grey to 50% grey, the dark areas of shaded-relief data no longer obscure the black type of the county labels, while the steep slopes of the Himalyan Mountains no longer appear as prominent.  
+Notice how the country names of Afghanistan, Pakistan (A), China (B), and Nepal (C) are all obscured and difficult to read in the image above, while the steep slopes of the Himalyan Mountains create a dark band of black color (C) which is not an important element to this map.  By changing the color ramp to go from 15% grey to 50% grey, the dark areas of shaded-relief data no longer obscure the black type of the county labels, while the steep slopes of the Himalyan Mountains no longer appear as prominent.  
    
 ![Figure 2](./Images/2 Grey14-Grey50 ramp ex.png)
 
