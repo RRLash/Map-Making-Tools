@@ -1,145 +1,37 @@
-"This spreadsheet has been made by Ryan Lash (@RRLash) as a way to quickly reference the information produced by Daniel Huffman (@pinakographos), and posted to YouTube as a 6 part series ""Shaded Relief in Blender.""  While the transcripts and notes have attempted to capture much of the information in the audio of the video tutorial, they are not verbatim.  The information Work Flow, Operation Description, and Operation Commands columns are an attempt to abstract the process described in the video in a quick reference format.  The text herein has been made with reference only to the YouTube video content, and checked against Blender Software (v2.70) installed on a Windows 7 x64 machine, and Mac OS X on a MacBook Pro Retina.  RRL, 4/4/2013",,,,
-,,,,
-"Part, Time",Transcript,Work Flow,Operation Description,Operation Commands
-"YouTube Video, Part 1",Introduction: (Why make shaded relief maps with Blender is a good idea),,,
-,[not transcribed],,,
-,,,,
-"YouTube Video, Part 2",Blender Basics,,,
-0:25,"Blender is not a spatially aware software, which means it can read in projection information",,,
-0:52,"DEM must already be projected, clipped and sized as it will be used in your final map.",,,
-2:00,Starting Blender software,,,
-2:30,basic tools for using Blender,,,
-2:50,"navigating around scene (rotate, pan, zoom)",,,
-3:00,issues with 3-button mouse default,,,
-3:25,Changing user preferences to accommodate a 2-button mouse,,,
-4:30,"rotating around a scene (ALT + left click-drag, or middle-click drag)",,Rotate around a scene,"ALT + left click-drag, or middle-click drag"
-4:50,pan around scene (ALT + SHIFT + left click-drag),,Pan around scene,ALT + SHIFT + left click-drag
-5:04,"zoom in and out (ALT + CONTROL+ move mouse up and down, or scroll wheel)",,Zoom in and out,"ALT + CONTROL+ move mouse up and down, or scroll wheel"
-5:35,"Selecting objects, such as camera, light source, cube, plane, etc. (Right-click on object)",,"Select Objects (e.g. camera, light source, cube, plane, etc)",Right-click on object
-6:23,"Alternate way to select objects (selecting objects in right-panel, outliner view)",,,
-6:38,Select object from Outliner view (left-click on object name),,Select object from Outliner view (panel on right-hand side of screen),left-click on object name
-7:05,Understanding the elements of Blender as a photographic studio,,,
-,-object to photograph (ex. Cube),,,
-,-camera for taking photographs,,,
-,-light source (blender calls a lamp) to light the scene,,,
-7:40,Explaining the mechanics of how the objects operate together,,,
-7:45,"Explainging the rendering operation, aka 'Taking photographs of scene'",,,
-7:50,Image Rendering process (Render menu dropdown -> Render Image),1,Render Image,Render menu dropdown -> Render Image
-8:30,Different types of rendering engines,,,
-8:45,Changing rendering engine from Blender Render to Cycles Render,2,Change Rendering Engine,open Render menu (upper left of screen) -> Render Image -> Blender Render dropdown -> Cycles Rendere
-9:27,"To exit the rendering results screen, press Escape",,Exit Rendering output screen,press Escape
-9:35,Defining what a mesh is - def. a mesh is a 3D vector object,,,
-9:55,Toggle between Object Mode and Edit Mode (press TAB),,Toggle between Object Mode and Edit Mode,press TAB
-10:35,Adding additional meshes (e.g. 3D vector objects)(press SHIFT + A to get the Add pop-up menu to appear),,Show Add Meshes Menu (aka. 3D vector objects),press SHIFT + A
-,"**NOTE NOT IN VIDEO** Alternate way to add a mesh is throught the Add menu dropdown, located in the upper-left hand side of the window, next to the Render dropdown menu.",,,
-11:00,New meshes appear in the scene where the 3D coursor is (Left-Click to move or place 3D cursor),,,Left-Click to move or place 3D cursor
-11:10,"Add a Plane mesh (SHIFT + A, Mesh -> Plane)",,Add a Plane mesh,"SHIFT + A, Mesh -> Plane"
-11:30,Summary description of the process for making a shaded relief model in Blender,,,
-,-make a plane,,,
-,-subdivide the plane into lots of vertices,,,
-,"-add a DEM image to the plane to tell Blender how to displace the vertices, thereby creating the 3D terain",,,
-,"-place the camera directly over the plane oriented downward, or nadir to the plane",,,
-,-light the plane surface from a light source placed in the corner,,,
-,,,,
-"YouTube Video, Part 3",The Plane,,,
-0:15,"Deleting extra objects, the cube and cylinder",,,
-0:25,"Select object to delete with Right-Click, then press DELETE key.  When confirm delete pop-up menu appears, select Delete again.",3,Delete unwanted meshes,"Select object, then press DELETE (or, press X), and confirm deletion"
-,"**NOTE NOT IN VIDEO** On an Apple MacBook Pro, pressing the DELETE key as described does not work.  Alternative ways to delete objects are to press the X key, and then confirm delete when the pop-up menu appears.  A second alternative is to use the Outliner pane; Right-Click on object, and choose Delete from the Outliner Object Operation pop-up menu which appears.",,,
-0:50,Starting from a blank scene,,,
-0:55,"Add a new plane (Shift + A to get the Add pop-up menu, then select Mesh-> Plane",4,Add a new Plane Mesh,"Shift + A to get the Add pop-up menu, then select Mesh-> Plan"
-1:00,Aligning new plane to the origin point of the scene,,,
-1:55,Explanation of how to move the location of the plane in the scene by changing the properties of the plane in the Right Pane,,,
-2:00,"With plane selected (remember, Right-click on it), in the Right-hand pane (beneath Outliner), Select the orangish-brown cube shaped icon to show the Object (e.g. Plane) properties tab.",5,Access (Plane) Object Properties,"Select Object, then Select the orangish-brown cube shaped icon to show the Object (e.g. Plane) properties tab"
-2:20,"Identifying and changing the Location properties for the Plane within the Transform group of the Object properties tab, to move the plane to the scene origin of X=0, Y=0, Z=0",6,Align Plane to origin of scene,"Select Object, then click Object Properties Tab -> Transform: Location -> set X=0, Y=0, Z=0"
-3:10,Changing the Aspect Ratio of the plane to match the shape of the input DEM,,,
-3:35,"Aspect Ratio properties are controlled by the X and Y, Scale properties, also found within the Transform group of the Object properties tab.",7,Change Aspect Ratio of plane to match DEM,"Select Object, then click Object Properties Tab -> Transform: Scale -> set X, Y, to a proportion of desired DEM (ex. DEM is 1201 columns, and 1305 rows, set X=1.201 and Y=1.305)"
-3:50,How to select scale of aspect ratio- suggested that plane size should fit within coordinate frame of scene,,,
-5:10,Proces of subdividing the plane to create more vertices,,,
-5:35,Explanation of the relationship between the number of vertices within a plane and the level of detail with which the terrain is rendered,,,
-6:00,How to use the subdivide tool,,,
-,-select the Plane object and press TAB to change to Edit mode,8,Change from Object Mode to Edit Mode,press TAB
-6:30,"In the left-hand pane, under the Add group of buttons, left-click on Subdivide",9,Select the Subdivide tool to subdivide the plane into lots of vertices,"Select Object (right-click), change to Edit mode (TAB), locate Subdivide tool in: Tools tab (Left-hand pane) -> Mesh Tools (expand) -> Add: Subdivide"
-6:40,Clicking the subdivide tool automatically divides the plane into 4 pieces,,,
-7:00,Increasing the number of subdivisions via the Number of Cuts options within the Subdivide pane,10,Define the number of vertices to be created by the Subdivide tool (tool can take several minutes to run),expand Subdivide tool -> Number of Cuts -> enter number of cuts (500-2500)
-7:30,"Reasoning for how to pick the number of subdivisions- we want the highest number of subdivisions our computer can support.  YouTube Demo uses 500, 4-year old computer can do 1500, computer from 2013 can support 2500, but takes several minutes to process",,,
-,-the number of subdivisions is limited by the amount of RAM memory in the computer,,,
-,"-number of subdivisions increases the number of vertices in the plane, which increases the quality of the terrain surface generated",,,
-9:10,"For this demo, we will use 500 subdivisions.",,,
-10:20,"After subdivisions have been created, change from Edit mode to Object mode by pressing TAB",11,Change from Edit Mode back to Object Mode,press TAB
-10:30,Explanation of the vertical displacement process,,,
-10:40,Adding a displacement modified,,,
-10:50,"Locate the displacement modifier menu, by clicking on blue wrench icon on the Object properties pane on the right-side of the screen.  The wrench is located to the right of the orangish-brown cube icon used to change the location and scale of the plane object.",,,
-10:56,"Click on the Add Modifier pulldown menu, and under the column heading of Deform, select Displace",12,Add a Modifier which will deform the surface of the plane based on the input DEM,Object Properties window -> Object Modifiers tab -> Add Modifer dropdown -> Deform column: Displace
-11:00,Tell blender to displace the terrain surface based on the input DEM by adding a Texture,,,
-11:10,"Define the DEM locations by changing to the Texture properties menu, by clicking the small ""Show texture in texture tab"" icon in the Modifier properties menu",,,
-,"**NOTE NOT IN VIDEO** finding this icon may be difficult at first.  An alternative way to navigate to the Texture properties menu tab is to click the tab itself, which is the red-and-white checkerboard icon in the Object properties menu (3 tabs to the right of the Modifer property tab's wrench icon).",,,
-11:25,"Create a new texture by clicking on the New texture dropdown menu.  By default, the texture is automatically set to clouds.",13,Add a Texture modifier,Object Properties window -> Object Texture tab -> Add a New Texture -> (Defaults to Type: Clouds)
-,"**NOTE NOT IN VIDEO** if the plane surface does not automatically appear displaced after this process, it's likely because you're still in Edit mode.  Press TAB to change from Edit mode to Object mode.",,,
-11:45,"To change the texture type from clouds to our DEM, we need to change the texture Type.  Click the Type pulldown menu where the default is currently clouds, and change it to Imager or Movie",14,Change Texture modifier from Clouds to Image (aka. DEM),"In Object Texture tab, click [texture] Type: dropdown -> Image or Movie"
-11:55,"To define the location of the image, or in our case DEM, to be used, go down the Texture properties pain to the Image group, and click on the Open file button.  In the file browser window which opens up, navigate to your DEM, then click Open Image in the upper-right corner. The broswer window will close, and the terrain surface will have changed to your DEM",15,Set new Image texture to your DEM,"In Object Texture tab, expand the Image group, and click Open.  In the file broswer window which appears, navigate to your DEM, select it, and click Open Image button."
-,"**NOTE NOT IN THE VIDEO** if your image file (TIFF, JPG, PNG) does not conform the requirements states in Part 1, namely that your DEM contains only positive interger values (not floating point values, and that the image file type is either 8-bit, or 16-bits, it will not load.  No error messages are thrown to inform you of this, but you will know becuase the terrain surface will not appear displaced, and will instead be a flat plane again.",,,
-12:45,"Once loaded, the raster dimensions and file type can be confirmed under the Source heading under the Texture properties menu. If the DEM file changes (but the file location and name remain the same) the contents of the new file can be loaded into Blender by pressing the refresh button.",,,
-12:50,"Need to change the Extension property from the dropdown menu in the Image Mapping group.  The default is Repeat, and it needs to be changed to Extend.  This tells Blender not to repeat (e.g. tile) the displacement along the outer edges of the plane, rather just extend the DEM displacement to the edge of the plane and nothing more.",16,"Change Extension property, which determines how edges of plane are dealt with",In Object Texture tab -> expand Image Mapping group -> Extension: dropdown [default is Repeat] -> Extend
-13:50,Changing the vertical exaggeration strength,,,
-14:05,"Navigate to the Object Modifer menu tab (wrench icon), and locate the Strength property (lower-right corner).  This property control the vertical exaggeration.",17,Change vertical exaggeration Strength property,Object Properties window -> Object Modifier tab -> Strength propery
-14:45,"If Blender's performance slows down because it's having to use a lot of processing power to show terrain, dispalcement by toggling off the Display Modifier [Displacement] in Realtime property, which is done by clicking the eye icon in the Modifier property menu.",,,
-15:30,"Even with the Display Modifier in Realtime property set to off, the terrain will still render with displacement when the Render -> Render Image operation is performed",,,
-16:10,Improving the appearance of the raster by changing the type of shading,,,
-16:15,"Select the plane object, and under the Object Tools menu on the left-hand side, set the Shading type to Smooth, which eliminates the finely distributed sharp angles of the terrain surface",18,Change plane surface Shading type to Smooth,(with the scene in Object Mode) From the Tools tab (right-hand panel on the screen) -> expand Edit -> Shading: Smooth
-16:40,"Blender provides lots of controls about the material which the surface is made of, such as velvet fabric, or metal, or glass.",,,
-16:50,"Change the plane's material properties by selecting the Material properties tab in the Object Properties menu, which is a circular icon next to the red-and-white checkerboard icon, which was the Texture property tab.",,,
-17:00,"On the Material property tab, you can change the color of the terrain surface and the surface roughness.  To change the color, locate the Color property menu under the Surface group.",,Choose the Color of the plane surface,Object Properties window -> Object Materials tab -> expand Surface -> Color: property
-,"**NOTE NOT IN THE VIDEO** if your rendering engine is set to the default of Blender Render, the Material property tab will show different options than what's shown in the video.  To follow along with the tutorial, make sure the Cycles Rederer rendering engine is currently selected.",,,
-17:20,"The surface Roughness property controls how glossy or matte the surface appears, base on the way the surfaces reflect light.  Users should play around with this setting to find one that's optimal for their use.  The demo uses 0.7.",19,Set the plane surface Roughness property,Object Properties window -> Object Materials tab -> Roughness: property
-,,,,
-"YouTube Video, Part 4",The Camera,,,
-0:09,"To view the scene through the camera lens, press 0 (zero)  on the numeric key pad",,Change view to/from Camera Lens perspective,Press 0 on numeric keypad.
-0:40,"Pressing the non-numeric keypad 0 (zero) will hide all layers (plane mesh).  To undo this, go to the View menu, in the lower left hand corner of the screen, and click Show All Layers",,,
-1:15,Setting up the Camera object to photograph the plane from an overhead (nadir) view,,,
-1:30,Change Camera location the same way you do the Plane mesh location,20,Align the Camera over the plane,"Select Camera Object, then click Object Properties tab -> Transform: Location -> set X=0, Y=0, Z=3"
-2:10,"Change the Camera by changing the Rotation properties, so that it is looking directly down on the plane",,, 
-2:55,Change camera frame's Aspect Ratio to match the terrain,,,
-3:08,The camera's Aspect Ratio is controlled through the render settings in the Render menu tab (still camera icon),,,
-3:25,"the Resolution property controls the output size of our final rendered relief, and it needs to be changed to roughly match the Aspect Ratio of the DEM",21,Change Aspect Ratio of Camera to match Aspect Ratio of DEM,"Select Camera Object, then click Render Properties tab -> expand Dimensions menu -> set Resolution: property, X=1000, Y=1400"
-4:10,A general rule of thumb is that the Rederer's Resolution property should be less than or equal to the number of subdivisons of the plane,,,
-4:50,"If the area of the DEM (which equates to the number of pixels) exceeds the number of subdivisions which the computer hardware can support, then the rendering process needs to be tiled into small manageable pieces which can busequently be mosaiced back together.",,,
-5:30,"The ""Percentage scale for render resolution"" impacts the final resolution of the rendered image, so if you want an output render image which matches the X and Y coordinates of the previous Aspect Ratio, then the Percentage needs to be changed to 100%",22,Change Resolution Percentage Scale to 100%,"Select Camera Object, then click Render Properties tab -> expand Dimensions menu -> set Percentage Scale for Render Resolution property to 100%"
-6:00,"Describing the need for the orthographic view so that all parts of the surface are seen from the top down perspective, not just the center of the surface.",,,
-6:35,"Change the camera lens to Orthographic, by selecting the Camera object, then selecting the Object Properties tab, which is the old-timey looking video camera icon, and selecting the Orthographic Lens",23,Change the camera lens settings to Orthographic,"Select Camera Object, then click Object Properties tab (Old time video camera icon)-> expand Dimensions menu -> set Percentage Scale for Render Resolution property to 100%"
-7:20,"Change the camera size to match the terrain size by changing the Orthographic scale, essentailly using the camera to zoom in on the terrain",24,Change the Orthographic scale to be 2x the length of the largest side of the dimensions of the Plane,"Select Camera Object, then click Object Properties tab (Old time video camera icon)-> expand Dimensions menu -> set Orthographic scale to 2.8 (2 x Larger side dimension of plane)"
-,,,,
-"YouTube Video, Part 5",The Sun,,,
-0:10,Blender calls a light source a Lamp,,,
-0:30,Right-click the Lamp to select it.,,,
-0:38,The Lamp properites tab is represented by a light source with 4 arrows pointing out from it.,,,
-0:45,"The propertise for the Lamp show that it is a Point light source, which means it is pointing light in all directions, like a light bukf from one spot.",,,
-1:00,Change the type of Lamp from Point to Sun,25,Change the type of Lamp from Point to Sun,"Select the Lamp Object, then click on the Lamp properties tab -> expand Lamp type -> change from Point to Sun"
-1:10,Describing the difference between Point and Sun types of light source.  Sun light rays all hit the surface of the earth essentially parrallel to each other.,,,
-1:35,"Change the angle which the light rays strike the surface of the earth by changing the Lamp object's Rotation [property], which are found within the Object Properties tab",,,
-1:55,We can ignore the Location of the Lamp object is within the scene because Blender applies the same amount of light to all areas of the scene for Lamp's with the Sun type.,,,
-2:12,"Change Lamp objects Rotation property to X=0, Y=45, and Z= 135",26,Change the angle of the rays from which the Sun lamp object hits the terrain,"Select the Lamp Object, then click Object Properties tab -> expand Location -> Rotation: (properties) -> X=0, Y=45, Z= 135"
-2:35,"Understanding what the lamp Rotation property settings mean, and why the location of the lamp in the scene doesn't matter.  The lamp's Rotation property Z-value should always be 135 (from the top-left of the scene), unless there is a good reason to change it, as extensive cartographic research has shown that map users mis-interpret terrain features if lit from other locations than 135.",,,
-3:55,"The Y rotation parameter controls essentially how high the Sun is in the sky, or the time of day effect.  Settings close to 0 are essentially vertical (or high-noon), where as 75 is an angle closer to the horizon like at sunrise or sunset, but it's usually kept at 45 unless there is good reason to change it.",,,
-5:20,"Additional Lamp settings need to be changed: it's size and strength, which are done in the Lamp properties tab.",,,
-5:38,The Size [property] of the Lamp controls how strong the shadows are in your final render,,,
-6:20,"Change the Size [property] of the Lamp to 1, which is usually a reliable setting.",27,Change the Size property of the Lamp to 1,"Select the Lamp Object, then click on the Lamp properties tab -> expand Lamp -> Size: property = 1"
-6:45,Final setting to adjust is the sun's Strength setting.,,,
-6:58,"To get the lamp Strength property to appear in the menu pane, select Use Nodes, then enter 2 into the Stregth property.  Explor Lamp strength, with typical settings ranging from 1 to 3",28,Change the Strength property of the Lamp,"Select the Lamp Object, then click on the Lamp properties tab -> expand Nodes -> Use Nodes -> Strength: property = 2"
-,,,,
-"YouTube Video, Part 6",Final Odds and Ends,,,
-0:05,Improving the output image by adjusting the render quality,,,
-0:28,"Navigate to Render settings, and increse Sampling's Render property from 10 to 70.  Note that final renders are typically done at a setting between 150 & 200, which ensures smooth colors.",29,Navigate to renderer Samples property and increase Sampling's Render property,Select the Rederer properties tab -> expand Sampling -> increase Samples: Render = 70
-1:38,"Incresing the quality of the renderer increases the amount of processing time used by the computer.  A best practice for making efficient use of time is to keep the Sampling's Render property low when frequently changing and rendering scenes, such as adjusting the strength of the sun lamp or adjusting the amount of displacement, then increasing rendering quality to its highest only once all of the necessary paramaters have been set.",30,"Note that for rendering the final images, a render setting of 150-200 is often used",
-2:10,"To stop rendering, press ESCAPE",,,
-2:15,Change Light Paths property to Limited Global Illumination,31,Change Light Paths property to Limited Global Illumination,"Select the Render properties tab -> expand Light Paths ->  select ""Limited Globall Illumination"" from dropdown menu"
-2:41,"What Limited Global Illumination does is adjusts how much light bounces around the scene.  Other settings are available for more complicated 3D scenes, but they do not produce any noticeable improvements when producing a shaded relief surface.",,,
-3:45,"Fixing black patches in final rendered scence, which are an artifact of the DEM sampling process, but their exact source is unknown.  There are 3 possible solutions.",,,
-4:17,"First solution which minimizes this artifact is to increase the number of subdivisons of the plane, from 500 to 1500 or 2000.",,,
-5:15,"The second solution is to do some smoothing. Select the Plane object, and go to the Modifiers property tab (wrench icon).  Add a new Smooth modifier.",32,Add a Smooth modifier to try to eliminate black patch artifacts,Object Properties window -> Object Modifiers tab -> Add Modifer dropdown -> Deform column: Smooth
-5:35,"Once a new Smooth modifier is add, increase the Factor property to 1.5",33,Increase the smoothing Factor property to 1.5,Object Properties window -> Object Modifiers tab -> Smooth modifier properties -> smooth Factor property = 1.5
-5:48,Increase the smoothing Repeat property to 2,34,Increase the smoothing Repeat property to 2,Object Properties window -> Object Modifiers tab -> Smooth modifier properties -> smooth Repeat property = 2
-6:33,The third solution is to do some smoothing of the DEM before loading it into Blender.,,,
-7:00,"Change DEM texture used to deform surface to one which has been already smoothed, either in Photoshop using a Gausian Blur or possibly in GIS software.  Once you've created a smoothed DEM, navigate to the Textures property tab (red & which checkered icon), and load the new smoothed DEM image.  Once loaded, make sure to turn off Blender's Smoothing modifier you created in the previous steps.",,,
-8:55,"Once you are satisified with your final rendered image, it's necessary to save it as an image file. Navigate to the Image menu located in the bottome left cornder of the screen and select Save as Image",35,"When satisfied with the final rendered image, save the rendered image as a new file",Locate and open the Image menu (lower left corner of screen) -> Save as Image
-9:10,"When the file browser window opens, choose location to save the image to, as well as the type of file, and enter a filename for the output file, then click Save As Image",36,"When the file browser window opens, choose location to save the image to, as well as the type of file, and enter a filename for the output file, then click Save As Image",
-9:40,"Shaded relieft image processing COMPLETE!  Subsequent shaded relieft images can be processed more quickly than done in this tutorial, as the settings can be saved as a Blender file.  When a new relief image is desired, simlply load Blender file, navigate to Texture property tab, and load the new image data.",,,
+Order,Description,Procedure
+1,Render Image,Render menu dropdown -> Render Image
+2,Change Rendering Engine,open Render menu (upper left of screen) -> Render Image -> Blender Render dropdown -> Cycles Rendere
+3,Delete unwanted meshes,"Select object, then press DELETE (or, press X), and confirm deletion"
+4,Add a new Plane Mesh,"Shift + A to get the Add pop-up menu, then select Mesh-> Plan"
+5,Access (Plane) Object Properties,"Select Object, then Select the orangish-brown cube shaped icon to show the Object (e.g. Plane) properties tab"
+6,Align Plane to origin of scene,"Select Object, then click Object Properties Tab -> Transform: Location -> set X=0, Y=0, Z=0"
+7,Change Aspect Ratio of plane to match DEM,"Select Object, then click Object Properties Tab -> Transform: Scale -> set X, Y, to a proportion of desired DEM (ex. DEM is 1201 columns, and 1305 rows, set X=1.201 and Y=1.305)"
+8,Change from Object Mode to Edit Mode,press TAB
+9,Select the Subdivide tool to subdivide the plane into lots of vertices,"Select Object (right-click), change to Edit mode (TAB), locate Subdivide tool in: Tools tab (Left-hand pane) -> Mesh Tools (expand) -> Add: Subdivide"
+10,Define the number of vertices to be created by the Subdivide tool (tool can take several minutes to run),expand Subdivide tool -> Number of Cuts -> enter number of cuts (500-2500)
+11,Change from Edit Mode back to Object Mode,press TAB
+12,Add a Modifier which will deform the surface of the plane based on the input DEM,Object Properties window -> Object Modifiers tab -> Add Modifer dropdown -> Deform column: Displace
+13,Add a Texture modifier,Object Properties window -> Object Texture tab -> Add a New Texture -> (Defaults to Type: Clouds)
+14,Change Texture modifier from Clouds to Image (aka. DEM),"In Object Texture tab, click [texture] Type: dropdown -> Image or Movie"
+15,Set new Image texture to your DEM,"In Object Texture tab, expand the Image group, and click Open.  In the file broswer window which appears, navigate to your DEM, select it, and click Open Image button."
+16,"Change Extension property, which determines how edges of plane are dealt with",In Object Texture tab -> expand Image Mapping group -> Extension: dropdown [default is Repeat] -> Extend
+17,Change vertical exaggeration Strength property,Object Properties window -> Object Modifier tab -> Strength propery
+18,Change plane surface Shading type to Smooth,(with the scene in Object Mode) From the Tools tab (right-hand panel on the screen) -> expand Edit -> Shading: Smooth
+19,Set the plane surface Roughness property,Object Properties window -> Object Materials tab -> Roughness: property
+20,Align the Camera over the plane,"Select Camera Object, then click Object Properties tab -> Transform: Location -> set X=0, Y=0, Z=3"
+21,Change Aspect Ratio of Camera to match Aspect Ratio of DEM,"Select Camera Object, then click Render Properties tab -> expand Dimensions menu -> set Resolution: property, X=1000, Y=1400"
+22,Change Resolution Percentage Scale to 100%,"Select Camera Object, then click Render Properties tab -> expand Dimensions menu -> set Percentage Scale for Render Resolution property to 100%"
+23,Change the camera lens settings to Orthographic,"Select Camera Object, then click Object Properties tab (Old time video camera icon)-> expand Dimensions menu -> set Percentage Scale for Render Resolution property to 100%"
+24,Change the Orthographic scale to be 2x the length of the largest side of the dimensions of the Plane,"Select Camera Object, then click Object Properties tab (Old time video camera icon)-> expand Dimensions menu -> set Orthographic scale to 2.8 (2 x Larger side dimension of plane)"
+25,Change the type of Lamp from Point to Sun,"Select the Lamp Object, then click on the Lamp properties tab -> expand Lamp type -> change from Point to Sun"
+26,Change the angle of the rays from which the Sun lamp object hits the terrain,"Select the Lamp Object, then click Object Properties tab -> expand Location -> Rotation: (properties) -> X=0, Y=45, Z= 135"
+27,Change the Size property of the Lamp to 1,"Select the Lamp Object, then click on the Lamp properties tab -> expand Lamp -> Size: property = 1"
+28,Change the Strength property of the Lamp,"Select the Lamp Object, then click on the Lamp properties tab -> expand Nodes -> Use Nodes -> Strength: property = 2"
+29,Navigate to renderer Samples property and increase Sampling's Render property,Select the Rederer properties tab -> expand Sampling -> increase Samples: Render = 70
+30,"Note that for rendering the final images, a render setting of 150-200 is often used",
+31,Change Light Paths property to Limited Global Illumination,"Select the Render properties tab -> expand Light Paths ->  select ""Limited Globall Illumination"" from dropdown menu"
+32,Add a Smooth modifier to try to eliminate black patch artifacts,Object Properties window -> Object Modifiers tab -> Add Modifer dropdown -> Deform column: Smooth
+33,Increase the smoothing Factor property to 1.5,Object Properties window -> Object Modifiers tab -> Smooth modifier properties -> smooth Factor property = 1.5
+34,Increase the smoothing Repeat property to 2,Object Properties window -> Object Modifiers tab -> Smooth modifier properties -> smooth Repeat property = 2
+35,"When satisfied with the final rendered image, save the rendered image as a new file",Locate and open the Image menu (lower left corner of screen) -> Save as Image
+36,"When the file browser window opens, choose location to save the image to, as well as the type of file, and enter a filename for the output file, then click Save As Image",
