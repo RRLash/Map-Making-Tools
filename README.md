@@ -7,7 +7,7 @@ Welcome to my Git-It-Done repo! This repo exists to help me learn how to use Git
 * **Creating custom shaded relief color ramps**  
    For most cartographic production projects, the default color ramps in ArcMap really don't work well.  I encountered this problem when I was working on a map to be printed in color, so I wanted a color ramp which went from light to dark like a greyscale ramp, but in a different hue. [Here's how...](/Tutorials/Custom-Color-Ramp-ArcMap/Custom-Color-Ramp-ArcMap.md)
 
-* **Styling scale-dependent labels using ScaleRank Attributes**
+* **Styling scale-dependent labels using ScaleRank Attributes**  
    Natural Earth vector and point files contain a lot of great data, and for most maps you are going to want to label _some_ of this data, but likely not _all_ of it- or at least not all of it the same way.  Each vector shapefile contains a few different attribute fields that helps you to select and style features and their labels to create a more coherent and appealing visual hierarchy. [Here's how...](/Tutorials/Styling-Natural-Earth-Labels/Styling-Natural-Earth-Labels.md)
 
 ### Using [Blender](http://www.blender.org/) to produce beautiful shaded relief layers
