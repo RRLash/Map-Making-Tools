@@ -42,6 +42,24 @@ def DetectRasterization():
 
 DetectRasterization()
 ```
+
+In addition to having a hard time remembering whether transparency applied or not, I also have a hard time keeping track of label classes, since they may or may not match your feature symbology classes.  The python script below (based on "LabelClass Example 1" [found here](http://resources.arcgis.com/en/help/main/10.2/index.html#/LabelClass/00s30000002t000000/)) will quickly run a report of the currently applied label classes.
+
+```
+import arcpy
+mxd = arcpy.mapping.MapDocument("CURRENT")
+for lyr in arcpy.mapping.ListLayers(mxd):
+    if lyr.supports("LABELCLASSES"):
+        if lyr.showLabels:
+            print "Layer name: " + lyr.name
+            for lblClass in lyr.labelClasses:
+                if lblClass.showClassLabels:
+                    print "    Class Name:  " + lblClass.className
+                    print "    Expression:  " + lblClass.expression
+                    print "    SQL Query:   " + lblClass.SQLQuery
+del mxd
+```
+
 The script below (copied from "Example 2" [here](http://resources.arcgis.com/en/help/main/10.1/index.html#/ExportToAI/00s30000002v000000/)) will export an AI file based on the current data frame extent, and desired output resolution.   
 
 ```
