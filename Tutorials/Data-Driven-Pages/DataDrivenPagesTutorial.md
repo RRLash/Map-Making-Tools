@@ -43,7 +43,7 @@ def DetectRasterization():
 DetectRasterization()
 ```
 
-In addition to having a hard time remembering whether transparency applied or not, I also have a hard time keeping track of label classes, since they may or may not match your feature symbology classes.  The python script below (based on "LabelClass Example 1" [found here](http://resources.arcgis.com/en/help/main/10.2/index.html#/LabelClass/00s30000002t000000/)) will quickly run a report of the currently applied label classes.
+In addition to having a hard time remembering whether transparency has been applied or not, I also have a hard time keeping track of label classes, since they may or may not match your feature symbology classes.  The python script below (based on "LabelClass Example 1" [found here](http://resources.arcgis.com/en/help/main/10.2/index.html#/LabelClass/00s30000002t000000/)) will quickly run a report of the currently applied label classes.
 
 ```
 import arcpy
