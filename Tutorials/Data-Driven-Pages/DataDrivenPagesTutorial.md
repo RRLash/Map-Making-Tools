@@ -83,11 +83,16 @@ import arcpy
 mxd = arcpy.mapping.MapDocument("Z://Yellow_Book_2016//AdministrativeFiles//Maps//MapTemplates//DataDrivenPages_ReferenceMap_MultiScale_v1.mxd")
 
 print "starting for loop"
-for pageNum in range(1, mxd.dataDrivenPages.pageCount + 1):
-    mxd.dataDrivenPages.currentPageID = pageNum
 
-    #arcpy.mapping.ExportToAI(mxd, r"C:\Temp\DataDrivenPagesTest\" + str(pageName) + ".ai", , , , , CMYK, , )
+#For each pageNum in range of all page numbers, export an AI file
+for pageNum in range(1, mxd.dataDrivenPages.pageCount + 1):
+    
+    #Set currentPageID equal to the current pageNum
+    mxd.dataDrivenPages.currentPageID = pageNum
+    
+    #Run ExportToAI process
     arcpy.mapping.ExportToAI(mxd, "C://Temp//DataDrivenPagesTest//" + str(pageNum) + ".ai")
     
+    #print command when each map is done
     print "... done with map " + str(pageNum)
 del mxd
