@@ -71,3 +71,23 @@ arcpy.mapping.ExportToAI(mxd, r"C:\Project\Output\ProjectDataFrame.ai", df,
                          df_export_height=1200)
 del mxd
 ```
+
+!!Here's a script I just made which actually worked.  I had to greatly simplify the MXD file I started with, but the output are 5 different maps covering different parts of the world as defined by a single input shapefile. 
+
+```
+print "starting script"
+
+import arcpy
+
+#Set the name of MXD File to open.  Note MXD must already have Data Driven Pages initiated
+mxd = arcpy.mapping.MapDocument("Z://Yellow_Book_2016//AdministrativeFiles//Maps//MapTemplates//DataDrivenPages_ReferenceMap_MultiScale_v1.mxd")
+
+print "starting for loop"
+for pageNum in range(1, mxd.dataDrivenPages.pageCount + 1):
+    mxd.dataDrivenPages.currentPageID = pageNum
+
+    #arcpy.mapping.ExportToAI(mxd, r"C:\Temp\DataDrivenPagesTest\" + str(pageName) + ".ai", , , , , CMYK, , )
+    arcpy.mapping.ExportToAI(mxd, "C://Temp//DataDrivenPagesTest//" + str(pageNum) + ".ai")
+    
+    print "... done with map " + str(pageNum)
+del mxd
