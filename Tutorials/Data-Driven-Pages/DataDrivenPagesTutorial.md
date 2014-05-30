@@ -75,24 +75,67 @@ del mxd
 !!Here's a script I just made which actually worked.  I had to greatly simplify the MXD file I started with, but the output are 5 different maps covering different parts of the world as defined by a single input shapefile. 
 
 ```
-print "starting script"
+##TITLE: Exporting ArcGIS maps to AI using DataDrivenPages and Definition Queries
+##AUTHOR:  Ryan Lash
+##DATE:  5/28/2014
+##PURPOSE:  This script is meant to help automate the workflow for exporting
+##    lots of maps from the same MXD file using ArcGIS Data Driven Pages.
+##    The input for this is an MXD file which contains:
+##        -A series of vector layers using mostly Natural Earth Data
+##        -An "Index file" (See ArcGIS docs on "Data Driven Pages"), which in this
+##            example is a polygon feature layer with rectangles showing the desired
+##            extent for each map to be output.
+##    The desired output is a reference map where the country of interest shows
+##    Admin 1 boundaries drawn for only the country of interest, with each
+##    of these Admin 1 regions labeled.  Since the Natural Earth Data has a global
+##    coverage, a Defenition Query is used to select only the Admin 1 labels and
+##    Admin 1 boundaries for the country of interest for that map.  In this example,
+##    the admin 1 boundary files is a line file, so a separate file is needed for
+##    labeling the areas.  These files have slightly different field names, so while
+##    each definition query relies on the name of the country for defining the query,
+##    the field names are different for the two feature layers.
+
+    
+print "*STARTING SCRIPT NOW*\n"
 
 import arcpy
 
-#Set the name of MXD File to open.  Note MXD must already have Data Driven Pages initiated
+#Specify map document and data frame.  Note MXD must already have Data Driven Pages initiated
 mxd = arcpy.mapping.MapDocument("Z://Yellow_Book_2016//AdministrativeFiles//Maps//MapTemplates//DataDrivenPages_ReferenceMap_MultiScale_v1.mxd")
 
-print "starting for loop"
+print "Starting Data Driven Pages FOR loop"
 
-#For each pageNum in range of all page numbers, export an AI file
 for pageNum in range(1, mxd.dataDrivenPages.pageCount + 1):
-    
-    #Set currentPageID equal to the current pageNum
+
     mxd.dataDrivenPages.currentPageID = pageNum
+    outputFileName = mxd.dataDrivenPages.pageRow.getValue('MapTitle')
     
-    #Run ExportToAI process
-    arcpy.mapping.ExportToAI(mxd, "C://Temp//DataDrivenPagesTest//" + str(pageNum) + ".ai")
+    #Retrieve and define query argument value from QryAdmin1 Field in DataDrivenPages Index File
+    qryDefArg = mxd.dataDrivenPages.pageRow.getValue('QryAdmin1')
+    print "\t...Defining query arguement as: " + qryDefArg
     
-    #print command when each map is done
-    print "... done with map " + str(pageNum)
+    #Create query text for Label and Line layers
+    qryDefAdmin1Label = '"admin" = ' + "'" + qryDefArg + "'"
+    qryDefAdmin1Line = '"adm0_name" = ' + "'" + qryDefArg + "'"
+    
+    #Loop through layers in Data Frame to identify Label and Line Layers, and then pass the Defenition Queries
+    for lyr in arcpy.mapping.ListLayers(mxd):
+        if lyr.name == "ne_10m_admin_1_label_points":
+            lyr.definitionQuery = qryDefAdmin1Label
+        if lyr.name == "ne_10m_admin_1_states_provinces_lines_geodb":
+            lyr.definitionQuery = qryDefAdmin1Line
+    print "\t...Definition queries completed"
+    
+    #Refresh the Active View
+    arcpy.RefreshActiveView()
+    
+    #Run the export to AI process
+    arcpy.mapping.ExportToAI(mxd, "C://Temp//DataDrivenPagesTest//" + outputFileName + ".ai")
+    
+    print "\tExport complete for map " + outputFileName
+    
 del mxd
+
+print "\n*SCRIPT COMPLETED*"
+
+'''
