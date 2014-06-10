@@ -17,3 +17,6 @@ I followed along with his tutorial the first time, but found that when I was try
 
 ### Using ArcGIS Data Driven Pages   
 The print cartography project I'm working on requires making about 60 unique maps.  My workflow is to organize and layout the map data in ArcGIS, then export the data from ArcGIS as an Adobe Illustrator file (.ai), and adjusting type and applying other styling in Adobe Illustrator.  Many of the maps will have a raster base data, so the raster files have to exported from ArcGIS separately as a TIFF file.  I'm exploring [ArcGIS's Data Driven Pages] (http://resources.arcgis.com/en/help/main/10.1/index.html#//00s90000003n000000) tools to see if they I can automate the export process in python with the [arcpy.mapping](http://resources.arcgis.com/en/help/main/10.1/index.html#//00s30000000n000000) module.  [Here's what I'm trying...](/Tutorials/Data-Driven-Pages/DataDrivenPagesExperiment.md)
+
+### Exporting OpenStreetMap (OSM) data     
+A summary of the different tools I use for querying and downloading OSM data.  [Here's what I've used...](/Tutorials/OSM-Export_Tools.md)
