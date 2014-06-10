@@ -40,7 +40,7 @@ According to the Overpass API [language guide](http://wiki.openstreetmap.org/wik
 ```
 <!--
 This script changes variable name 'v' to 'regv'
-and adds a '^' to the beginning of the 
+and adds a '^' to the beginning of the query string 
 -->
 <osm-script output="json" timeout="25">
   <!-- gather results -->
