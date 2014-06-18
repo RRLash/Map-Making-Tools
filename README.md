@@ -22,12 +22,12 @@ The print cartography project I'm working on requires making about 60 unique map
 A summary of the different tools I use for querying and downloading OSM data.  
 
 ##### Data Export  
-   [GEOFABRIK downloads](http://download.geofabrik.de/): No account needed.  Download zipped .shp and .osm files based on a given country or administrative units.  
-   [WeoGeo.com](http://www.weogeo.com/data/OpenStreetMap_Data.html): Free accountrequired. Define a custom AOI and download in a vareity of different common geospatial data formats.   
-   [Overpass Turbo](http://overpass-turbo.eu/): No account needed.  Use Query Wizard to select specific features from current OSM data server for a user defined AOI.  Export data into any number of common geospatial data formats (No direct export to shapefil option). [Example Tutorial](/Tutorials/OSM-Export_Tools.md)
+   * [GEOFABRIK downloads](http://download.geofabrik.de/): No account needed.  Download zipped .shp and .osm files based on a given country or administrative units.  
+   * [WeoGeo.com](http://www.weogeo.com/data/OpenStreetMap_Data.html): Free accountrequired. Define a custom AOI and download in a vareity of different common geospatial data formats.   
+   * [Overpass Turbo](http://overpass-turbo.eu/): No account needed.  Use Query Wizard to select specific features from current OSM data server for a user defined AOI.  Export data into any number of common geospatial data formats (No direct export to shapefil option). [Example Tutorial](/Tutorials/OSM-Export_Tools.md)
    
 ##### Visualize data statistics  
 
-   [Taginfo](http://taginfo.openstreetmap.org/): See word cloud of most popular OSM tag Keys, and invidual statistics for each tag used.  
-   [Neis One!](http://neis-one.org/): The personal website of Pascal Neis, there are lots of great webtools for tracking and analyzing edits to OSM by location, individual user name, and change sets. [How did you contributed to OpenStreetMap)[http://hdyc.neis-one.org/] generates a custom activity report for a specific username. [Your OSM HeatMap](http://yosmhm.neis-one.org/) generates a cusome heat map based on aggregating the location of a single users edits globally.   [Who's around me](http://resultmaps.neis-one.org/oooc) shows the locatio of other users based on a mean location of their edits for a specific point in time, or averages over 6 months.  
-   [ito! OSM Mapper](http://www.itoworld.com/static/openstreetmap_tools/osm_mapper.html) Account required.  Generate maps and reports of editing activity by user, by tag, or by time for a user defined area.  Maps and tables are exportable in several easily accessible formats.
+   * [Taginfo](http://taginfo.openstreetmap.org/): See word cloud of most popular OSM tag Keys, and invidual statistics for each tag used.  
+   * [Neis One!](http://neis-one.org/): The personal website of Pascal Neis, there are lots of great webtools for tracking and analyzing edits to OSM by location, individual user name, and change sets. [How did you contributed to OpenStreetMap)[http://hdyc.neis-one.org/] generates a custom activity report for a specific username. [Your OSM HeatMap](http://yosmhm.neis-one.org/) generates a cusome heat map based on aggregating the location of a single users edits globally.   [Who's around me](http://resultmaps.neis-one.org/oooc) shows the locatio of other users based on a mean location of their edits for a specific point in time, or averages over 6 months.  
+   * [ito! OSM Mapper](http://www.itoworld.com/static/openstreetmap_tools/osm_mapper.html) Account required.  Generate maps and reports of editing activity by user, by tag, or by time for a user defined area.  Maps and tables are exportable in several easily accessible formats.
