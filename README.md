@@ -18,5 +18,16 @@ I followed along with his tutorial the first time, but found that when I was try
 ### Using ArcGIS Data Driven Pages   
 The print cartography project I'm working on requires making about 60 unique maps.  My workflow is to organize and layout the map data in ArcGIS, then export the data from ArcGIS as an Adobe Illustrator file (.ai), and adjusting type and applying other styling in Adobe Illustrator.  Many of the maps will have a raster base data, so the raster files have to exported from ArcGIS separately as a TIFF file.  I'm exploring [ArcGIS's Data Driven Pages] (http://resources.arcgis.com/en/help/main/10.1/index.html#//00s90000003n000000) tools to see if they I can automate the export process in python with the [arcpy.mapping](http://resources.arcgis.com/en/help/main/10.1/index.html#//00s30000000n000000) module.  [Here's what I'm trying...](/Tutorials/Data-Driven-Pages/DataDrivenPagesExperiment.md)
 
-### Exporting OpenStreetMap (OSM) data     
-A summary of the different tools I use for querying and downloading OSM data.  [Here's what I've used...](/Tutorials/OSM-Export_Tools.md)
+### List of OpenStreetMap (OSM) tools     
+A summary of the different tools I use for querying and downloading OSM data.  
+
+##### Data Export  
+   [GEOFABRIK downloads](http://download.geofabrik.de/): No account needed.  Download zipped .shp and .osm files based on a given country or administrative units.  
+   [WeoGeo.com](http://www.weogeo.com/data/OpenStreetMap_Data.html): Free accountrequired. Define a custom AOI and download in a vareity of different common geospatial data formats.   
+   [Overpass Turbo](http://overpass-turbo.eu/): No account needed.  Use Query Wizard to select specific features from current OSM data server for a user defined AOI.  Export data into any number of common geospatial data formats (No direct export to shapefil option). [Example Tutorial](/Tutorials/OSM-Export_Tools.md)
+   
+##### Visualize data statistics  
+
+   [Taginfo](http://taginfo.openstreetmap.org/): See word cloud of most popular OSM tag Keys, and invidual statistics for each tag used.  
+   [Neis One!](http://neis-one.org/): The personal website of Pascal Neis, there are lots of great webtools for tracking and analyzing edits to OSM by location, individual user name, and change sets. [How did you contributed to OpenStreetMap)[http://hdyc.neis-one.org/] generates a custom activity report for a specific username. [Your OSM HeatMap](http://yosmhm.neis-one.org/) generates a cusome heat map based on aggregating the location of a single users edits globally.   [Who's around me](http://resultmaps.neis-one.org/oooc) shows the locatio of other users based on a mean location of their edits for a specific point in time, or averages over 6 months.  
+   [ito! OSM Mapper](http://www.itoworld.com/static/openstreetmap_tools/osm_mapper.html) Account required.  Generate maps and reports of editing activity by user, by tag, or by time for a user defined area.  Maps and tables are exportable in several easily accessible formats.
