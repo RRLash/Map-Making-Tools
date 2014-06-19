@@ -70,3 +70,30 @@ and adds a '^' to the beginning of the query string
 When first experimenting with Overpass Turbo, I used the map window extent to define the AOI for my query.  However, to get the entire area of my AOI, I was having to include a lot of extra areas of the map that I was not interested in.  To narrow the extent of my query, I decided to add a custom AOI to the bbox-query argument.
 
 A helpful tool when you need to quickly get the Lat/Long values for a bounding box is [bbox finder](http://bboxfinder.com/).  Simply pan and zoom to your area of interest on the interactive map, then draw a polygon around your AOI, and automatically the bounding coordinates will be shown at the bottom of the screen.  Be careful to note that the order of the coordinates implies which number defines each side of the bounding box!  bbox finder outputs coordinates as: West, South, East, North.  According to the Overpass Turbo API Guide though, Overpass Turbo expects the coordinates in the order of : East, North, West, South.  I replaced the bounding box argument above (`<bbox-query {{bbox}}/>`) with the following: `<bbox-query e="-84.335818" n="33.794841" s="33.771085" w="  -84.370322"/>`
+
+The following script queries all buildings using the custom bounding box (which generates a large 7MB file).
+
+```
+<osm-script output="json" timeout="25">
+  <!-- gather results -->
+  <union>
+    <!-- query part for: “building= ' '” -->
+    <query type="node">
+      <has-kv k="building" modv="" v=""/>
+      <bbox-query e="-84.335818" n="33.794841" s="33.771085" w="  -84.370322"/>
+    </query>
+    <query type="way">
+      <has-kv k="building" modv="" v=""/>
+      <bbox-query e="-84.335818" n="33.794841" s="33.771085" w="  -84.370322"/>
+    </query>
+    <query type="relation">
+      <has-kv k="building" modv="" v=""/>
+      <bbox-query e="-84.335818" n="33.794841" s="33.771085" w="  -84.370322"/>
+    </query>
+  </union>
+  <!-- print results -->
+  <print mode="body"/>
+  <recurse type="down"/>
+  <print mode="skeleton" order="quadtile"/>
+</osm-script>
+```
