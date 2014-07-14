@@ -41,4 +41,4 @@ Tools that I have found on several sites to help with this include:
    * [John's scripts for Adobe Illustrator](http://www.wundes.com/JS4AI/) (h/t @NVKelso):  I have not had a chance to explore these yet, but look forward to.   
 
 ### ArcGIS Python Scripts
-Python is supposed to make repetative tasks quick and painless in ArcGIS.  I've started collecting code snippets and scripts I have used, and [putting them here...]([Here's how...](/ArcGIS-Python-Code/ArcGIS-Python-Code.md)
+Python is supposed to make repetative tasks quick and painless in ArcGIS.  I've started collecting code snippets and scripts I have used, and [putting them here...](/ArcGIS-Python-Code/ArcGIS-Python-Code.md)
