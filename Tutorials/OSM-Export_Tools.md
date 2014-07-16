@@ -1,6 +1,9 @@
 # [overpass turbo](http://overpass-turbo.eu)   
 
-Overpass turbo is fantastic way to query and export just the data you want from OSM.  The following is an example I used when I wanted to export parking lots and parking spaces in my neighborhood.
+Overpass turbo is fantastic way to query and export just the data you want from OSM.  
+
+## Exporting Parking Lots and Parking Spaces in Virginia-Highland Neighborhood
+The following is an example I used when I wanted to export parking lots and parking spaces in my neighborhood.
 
 The first query was constructed by using the Wizard tool, where I entered the parking lot tag, which is amenity=parking
 
@@ -91,6 +94,21 @@ The following script queries all buildings using the custom bounding box (which 
       <bbox-query e="-84.335818" n="33.794841" s="33.771085" w="  -84.370322"/>
     </query>
   </union>
+  <!-- print results -->
+  <print mode="body"/>
+  <recurse type="down"/>
+  <print mode="skeleton" order="quadtile"/>
+</osm-script>
+```
+## Query all features with a tag of key="Highway", aka. query all the streets
+The following query is intended to return all the streets within the Overpass Turbo map window.  The query searches for features of type="way" that have key="highway", regardles of whether the tag value is primary, trunk, residential, service, etc.
+```
+<osm-script output="json" timeout="25">
+  <!-- gather results -->
+    <query type="way">
+      <has-kv k="highway"/>
+      <bbox-query {{bbox}}/>
+    </query>
   <!-- print results -->
   <print mode="body"/>
   <recurse type="down"/>
