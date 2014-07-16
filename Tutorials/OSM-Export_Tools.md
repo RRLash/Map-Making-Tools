@@ -1,8 +1,8 @@
 # [overpass turbo](http://overpass-turbo.eu)   
 
-Overpass turbo is fantastic way to query and export just the data you want from OSM.  
+Overpass turbo is fantastic way to query and export just the data you want from OSM.  You can choose to query features with a single OSM tag (e.g. amenity=parking) using the Overpass Turbo Wizard, or you can chose to modify the query into something more complex, such as all amenity features where the key value starts with parking (e.g. amenity=parking and amenity=parking_space).  The second example below shows how to query features for a single tag key, such as all the highways.  Finally, the last example shows how you can automatically export your features into JOSM, which is a really useful tool if you want features covering a larger area than JOSM will allow you to natively download from the OSM server.
 
-## Exporting Parking Lots and Parking Spaces in Virginia-Highland Neighborhood
+## Query Parking Lots and Parking Spaces in Virginia-Highland Neighborhood
 The following is an example I used when I wanted to export parking lots and parking spaces in my neighborhood.
 
 The first query was constructed by using the Wizard tool, where I entered the parking lot tag, which is amenity=parking
@@ -115,3 +115,10 @@ The following query is intended to return all the streets within the Overpass Tu
   <print mode="skeleton" order="quadtile"/>
 </osm-script>
 ```
+
+## Export results to JOSM
+You can tell Overpass Turbo to open your returned query results in JOSM if you already have JOSM open and running.  To allow JOSM to receive a command from your web-browser, you will need to make certain that you have enabled Remote Control in the JOSM Preferences settings.  To double-check this, open JOSM, choose the Edit drop-down menu at the top-left of the screen, and select Preferences (the last item on the drop-down list).  The Preferences window will open up, and each of the icons stacked down the left-side of the window will open a different Preference tab.  Click on the icon that looks like a remote control emitting a signal (second one up from the bottom).  Make sure the "Enable remote control" option button is checked, with all of the additional options checked in the "Permitted actions:" pane.
+
+Now, run a query in Overpass Turbo, and click on Export once the results are returned and displayed.  From the Overpass Turbo Export pop-up menu, find "load data into an OSM editor..." and click on the "JOSM" hyperlink.  An Incomplete Data error message window will pop-up if in the query command, the print mode is set to 'body' (<Print mode='body'...).  For JOSM to open the data, the print mode needs to be set to 'meta'.  Fortunately, Overpass Turbo will automatically correct this by clicking on the "repair query" button.  Run the query again, and this time when you choose export to JOSM, and the data should automatically load into JOSM.
+
+This features was discovered through the [following message board post](https://help.openstreetmap.org/questions/29022/overpass-turbo-query-wizard-output-to-josm-how).
