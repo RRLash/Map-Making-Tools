@@ -25,11 +25,12 @@ The print cartography project I'm working on requires making about 60 unique map
 A summary of the different tools I use for querying and downloading OSM data.  
 
 ##### Data Export  
-   * [GEOFABRIK downloads](http://download.geofabrik.de/): No account needed.  Download zipped .shp and .osm files based on a given country or administrative units.  
-   * [WeoGeo.com](http://www.weogeo.com/data/OpenStreetMap_Data.html): Free account required. Define a custom AOI and download in a vareity of different common geospatial data formats.   
-   * [Overpass Turbo](http://overpass-turbo.eu/): No account needed.  Use Query Wizard to select specific features from current OSM data server for a user defined AOI.  Export data into any number of common geospatial data formats (No direct export to shapefil option). [Example Tutorial](/Tutorials/OSM-Export_Tools.md).  
-   * [bbox finder](http://bboxfinder.com/): No account needed.  This handy tool allows you to quickly get the Lat/Long values for any user defined AOI in the web-mercator projection.
-   
+   * [GEOFABRIK downloads](http://download.geofabrik.de/): No account needed.  Download zipped .shp and .osm files based on a given country or administrative units. Data for download is Updated roughly once every 24hrs.  
+   * [WeoGeo.com](http://www.weogeo.com/data/OpenStreetMap_Data.html): Free account required. Define a custom AOI and download in a vareity of different common geospatial data formats. Data for download is Updated roughly once every month.  
+   * [Overpass Turbo](http://overpass-turbo.eu/): No account needed.  Use Query Wizard to select specific features from current OSM data server for a user defined AOI.  Export data into any number of common geospatial data formats (No direct export to shapefil option). Data downloaded is from current OSM database. [Example Tutorial](/Tutorials/OSM-Export_Tools.md).  
+   * [bbox finder](http://bboxfinder.com/): No account needed.  This handy tool allows you to quickly get the Lat/Long values for any user defined AOI in the web-mercator projection.  
+   * [HOT Exports](http://export.hotosm.org/): Free account required. Users can select their own AOI. Download only the features/tags you want by creating your own download preset, or choose from a tag presets.  Data downloaded is from current OSM database. Queries can be saved to the users account, and can be rerun whenever refreshed data is desired.  More info available on the [OSM Wiki- HOT Export](http://wiki.openstreetmap.org/wiki/HOT_Exports) page.
+
 ##### OSM database Visualization and summary statistic tools  
    * [Taginfo](http://taginfo.openstreetmap.org/): See word cloud of most popular OSM tag Keys, and invidual statistics for each tag used.  
    * [Neis One!](http://neis-one.org/): The personal website of Pascal Neis, there are lots of great webtools for tracking and analyzing edits to OSM by location, individual user name, and change sets. [How did you contributed to OpenStreetMap](http://hdyc.neis-one.org/) generates a custom activity report for a specific username. [Your OSM HeatMap](http://yosmhm.neis-one.org/) generates a custom heat map based on aggregating the location of a single users edits globally.   [Who's around me](http://resultmaps.neis-one.org/oooc) shows the location of other users based on a mean location of their edits for a specific point in time, or averages over 6 months.  
