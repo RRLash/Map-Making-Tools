@@ -24,12 +24,12 @@ If your map includes raster data, you will want to export that data as individua
 While the MapLex Labeling Engine does a great job of placing text, several different type settings limit the editability of the type after it has been exported, thus I choose to avoid using them.
 
 ## Export settings for Adobe Illustrator (AI) files.
-On the General Tab:
-1) set the Resolution to '300' dpi
-2) set the Output Image Quality to 'Best'
-3) check the option-box for 'Clip Output Graphics Extent'
+On the General Tab:  
+1) set the Resolution to '300' dpi  
+2) set the Output Image Quality to 'Best'  
+3) check the option-box for 'Clip Output Graphics Extent'  
 
-On the format tab:
-1) set the Destination Colorspace to 'CMYK'
-2) set the Picture Symbol to 'Vectorize layers with bitmap markers/fills'
+On the format tab:  
+1) set the Destination Colorspace to 'CMYK'  
+2) set the Picture Symbol to 'Vectorize layers with bitmap markers/fills'  
 3) uncheck 'Convert Marker Symbols to Polygons.'  The result that is produced when ArcGIS generalizes the shapes of these marker symbols is inconsistent.  Much more desirable results are achieved by using the Type -> Create Outlines operations.
