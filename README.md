@@ -6,9 +6,10 @@ Welcome! This repo exists to help me learn how to use GitHub, to better document
 A summary of the different tools I use for querying and downloading OSM data.  
 
 ##### OpenStreetMap (OSM) and Humanitarian OpenStreetMap Team (HOT)
-I think OSM is an incredibly valuable tool, and I think everyone should know about it. Here's how you can get started.  
-1. Start with [MapGive](http://wwww.mapgive.state.gov), and wathc the [Why you should map](http://mapgive.state.gov/why-map/) video.  Follow the instructions on the [Learn to map](http://mapgive.state.gov/learn-to-map/) webpage to create an OpenStreetMap account.  
-2.
+I think OSM is an incredibly valuable tool, and I think everyone should know about it. Here's how you can get started.   
+
+   1. Start with [MapGive](http://wwww.mapgive.state.gov), and wathc the [Why you should map](http://mapgive.state.gov/why-map/) video.  Follow the instructions on the [Learn to map](http://mapgive.state.gov/learn-to-map/) webpage to create an OpenStreetMap account.  
+   2.
 
 ##### Data Export  
    * [GEOFABRIK downloads](http://download.geofabrik.de/): No account needed. Data for download is Updated roughly once every 24hrs. Download zipped .shp and .osm files based on a given country or administrative units. 
