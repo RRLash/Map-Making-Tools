@@ -1,7 +1,7 @@
 Welcome! This repo exists to help me learn how to use GitHub, to better document my work, and share what I know and have learned with other interested folks.  Right now, my primary project is making 60+ maps for a new book. Thanks for visiting.
 
 ***
-## [CDC OpenStreetMap Training Course Outline](/Tutorials/OSM-Workshop.md) 
+## [CDC OpenStreetMap Training Course Outline](/Tutorials/OSM-Workshop/OSM-Workshop.md) 
 
 ### List of OpenStreetMap (OSM) tools     
 A summary of the different tools I use for querying and downloading OSM data.  
