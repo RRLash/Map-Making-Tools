@@ -1,7 +1,12 @@
 #Learn OpenStreetMap in an Afternoon
 ## Tuesday, October 14, 2014
 
-### 1:30 Get Started
+My name is Ryan Lash, and I'm excited to share with you some things I've learned about OpenStreetMap.  I first learned of OSM in 2010 after the Haiti Earthquake, but I didn't start mapping until about 2 years ago when I was interested in mapping my neighborhood in Atlanta.  Since then, my time and energy and spent mapping has increased, and my interest in using OSM in my public health work has grown.  I am now using OSM data for some of my CDC projects, as are several other CDC friends, and I would like to share this knowledge with you so we can begin to grow a CDC OSM community.
+
+### 1:30 Get Started  
+   1. Brief introductions- I'll explain why I'm interested in teaching others about OSM, and I'd like to know what motivates you to come and learn about OSM
+   2. Overview of the OSM Project: Motivations; Community; Tools; Data
+   3. 
 
 ### 4:00 Start wraping things up
 
@@ -12,7 +17,7 @@ A summary of the different tools I use for querying and downloading OSM data.
 ##### OpenStreetMap (OSM) and Humanitarian OpenStreetMap Team (HOT)
 I think OSM is an incredibly valuable tool, and I think everyone should know about it. Here's how you can get started.   
 
-   1. Start with [MapGive](http://wwww.mapgive.state.gov), and wathc the [Why you should map](http://mapgive.state.gov/why-map/) video.  Follow the instructions on the [Learn to map](http://mapgive.state.gov/learn-to-map/) webpage to create an OpenStreetMap account.  
+   1. Start with [MapGive](http://wwww.mapgive.state.gov), and watch the [Why you should map](http://mapgive.state.gov/why-map/) video.  Follow the instructions on the [Learn to map](http://mapgive.state.gov/learn-to-map/) webpage to create an OpenStreetMap account.  
    2. Learn how to edit OSM using the iD Editor- it only takes a few minutes! You can continue to follow along with the MapGive [Learn how to map in OpenStreetMap](http://mapgive.state.gov/learn-to-map/) video (11 minutes), or follow along with this succint tutorial from [learnOSM.org](http://learnosm.org/en/editing/id-editor/).
    3. Explore all the different things that are already mapped in OSM by browsing the [map](openstreetmap.org) and by visiting the [OSM Wiki Map Features](http://wiki.osm.org/wiki/Map_Features) page.  [TagInfo](https://taginfo.openstreetmap.org/) provides nice tools for visualizing the different tags currently used in the OSM database.
    4. Connect with others in the OSM Community.  Join one (or a couple) of the [OSM mailing lists](http://wiki.openstreetmap.org/wiki/Mailing_lists).
