@@ -12,7 +12,7 @@ My name is Ryan Lash, and I am excited to share with you some things I have lear
   - Data License  
   - Digital Data format (Tags; Key:Value)  
 
-1:45, **Data Editing in iD**  
+1:45, **Start Editing OSM in a web-browser [iD Editor](http://learnosm.org/en/editing/id-editor/)**  
   - Add your house  
   - Add your driveway  
   - Add 4 more POIs
