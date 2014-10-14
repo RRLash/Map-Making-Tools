@@ -59,12 +59,12 @@ My name is Ryan Lash, and I am excited to share with you some things I have lear
   - [MapBox](https://www.mapbox.com/): Design and publish beautivul online maps
   - [NPTiles](http://www.nps.gov/npmap/park-tiles/#4/39.00/-96.00): Pretty good for a federal agency
   - OSM-wiki list of [iOS Mobile Apps](http://www.nps.gov/npmap/park-tiles/#4/39.00/-96.00)
-    - [Pushpin](http://wiki.openstreetmap.org/wiki/Pushpin_OSM)
-    - [GoMap!](http://wiki.openstreetmap.org/wiki/Go_Map!!)
-    - [CityMaps2Go](http://wiki.openstreetmap.org/wiki/City_Maps_2Go): Offline travel maps
+    - [Pushpin](http://wiki.openstreetmap.org/wiki/Pushpin_OSM):  efficiently add POI data from Bing Imagery or GPS with this very easy to use interface.  Unfortunately, it doesn't work for disconnected editing
+    - [GoMap!](http://wiki.openstreetmap.org/wiki/Go_Map!!):  good for editing lines and polygons, although the interface is a little clunky
+    - [CityMaps2Go](http://wiki.openstreetmap.org/wiki/City_Maps_2Go): Not sure you will have mobile-data access?  With a little planning ahead of time, you can quickly grab lots of maps for offline navigation
   - OSM-wiki list of [Android Apps](OSM-wiki list of )
-    - [OsmAND](http://wiki.openstreetmap.org/wiki/OsmAnd)
-  - Gamify map editiong with [MapRoulette](http://wiki.openstreetmap.org/wiki/MapRoulette)
+    - [OsmAND](http://wiki.openstreetmap.org/wiki/OsmAnd):  this app supports data collection even while not connected to the internet.
+  - Gamify map editing with [MapRoulette](http://wiki.openstreetmap.org/wiki/MapRoulette)
 
 4:00, **Wrap-up Discussion**
   - Complete course evalutions
