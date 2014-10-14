@@ -7,19 +7,17 @@ My name is Ryan Lash, and I'm excited to share with you some things I've learned
    - Go to the [OSM Account Login webpage](https://www.openstreetmap.org/login?referer=%2F) and create an account.  If you already have an account, make sure you can login.  
 * 1:10, **Start introductions**  
 * 1:20, **Show some slides**  
-   -Data Coverage  
-	-Data License  
-	-Digital Data format (Tags; Key:Value)  
-* 1:30, **Data Editing in iD** 
-   -Add your house
-   -Add your driveway
-   -Add 4 more POIs
-   
-   
-1:50, discuss experience editing
-	Provide option to get started with JOSM or PotLatch
-PotLatch
-	Examine the Wiki
+   - Data Coverage
+   - Data License  
+   - Digital Data format (Tags; Key:Value)  
+* 1:30, **Data Editing in iD**  
+   - Add your house  
+   - Add your driveway  
+   - Add 4 more POIs  
+* 1:50, **Discuss Editing Experience**  
+  - Demo Potlatch
+  - Demo JOSM
+  - Examine the Wiki
 2:00, Introduce HOT
 	HOT History and Community (State Department MapGive, Red Cross, MSF, CDC?)
 	HOT Coordination between organizations
