@@ -76,7 +76,14 @@ I think OSM is an incredibly valuable tool, and I think everyone should know abo
    * [ito! OSM Mapper](http://www.itoworld.com/static/openstreetmap_tools/osm_mapper.html) Account required.  Generate maps and reports of editing activity by user, by tag, or by time for a user defined area.  Maps and tables are exportable in several easily accessible formats.
    * 
    
-### Additional Resources:
+### Additional Resources:  
+#### OpenStreetMap Community Communication Channels  
+  - Talk directly to other mappers in realtime using IRC  
+  - Join and post messages to email listservs  
+  - Follow OSM leaders on Twitter  
+  - Watch presentations from previous OpenStreetMap conferences  
+  - Organize or attend a local #mapathon  
+
 #### Volunteer Technical Communities  
   - Digital Humanitarian Network, *[Guidance for Collaborating with Formal Humanitarian Organizations](http://reliefweb.int/report/world/guidance-collaborating-formal-humanitarian-organizations)*  
   - Digital Humanitarian Network, *[Guidance for Collaborating with Volunteer & Technical Communities](http://reliefweb.int/report/world/guidance-collaborating-volunteer-technical-communities)*
