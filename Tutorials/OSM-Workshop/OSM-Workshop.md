@@ -57,7 +57,7 @@ My name is Ryan Lash, and I am excited to share with you some things I have lear
 
 3:30, **Quick survey of other OSM tools and applications**  
   - [MapOSMatic](http://www.maposmatic.org/): Create mapbooks from Mapnik for easy download and printing.
-  - [MapBox](https://www.mapbox.com/): Design and publish beautivul online maps
+  - [MapBox](https://www.mapbox.com/): Design and publish beautiful online maps
   - [NPTiles](http://www.nps.gov/npmap/park-tiles/#4/39.00/-96.00): Pretty good for a federal agency
   - There are [a lot of different ways](http://wiki.openstreetmap.org/wiki/Mapping_techniques) to add data to osm  
     - I am still waiting for the right project to use [Field Papers](http://fieldpapers.org/)!
