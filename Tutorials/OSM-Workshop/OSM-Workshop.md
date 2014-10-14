@@ -15,7 +15,8 @@ My name is Ryan Lash, and I am excited to share with you some things I have lear
 1:45, **Data Editing in iD**  
   - Add your house  
   - Add your driveway  
-  - Add 4 more POIs  
+  - Add 4 more POIs
+  - Take a look at MapRoulette
 
 2:00, **Discuss Editing Experience**  
   - Demo Potlatch
@@ -55,7 +56,15 @@ My name is Ryan Lash, and I am excited to share with you some things I have lear
 
 3:30, **Quick survey of other OSM tools and applications**  
   - [MapOSMatic](http://www.maposmatic.org/): Create mapbooks from Mapnik for easy download and printing.
-  - GeoConverter 
+  - [MapBox](https://www.mapbox.com/): Design and publish beautivul online maps
+  - [NPTiles](http://www.nps.gov/npmap/park-tiles/#4/39.00/-96.00): Pretty good for a federal agency
+  - OSM-wiki list of [iOS Mobile Apps](http://www.nps.gov/npmap/park-tiles/#4/39.00/-96.00)
+    - [Pushpin](http://wiki.openstreetmap.org/wiki/Pushpin_OSM)
+    - [GoMap!](http://wiki.openstreetmap.org/wiki/Go_Map!!)
+    - [CityMaps2Go](http://wiki.openstreetmap.org/wiki/City_Maps_2Go): Offline travel maps
+  - OSM-wiki list of [Android Apps](OSM-wiki list of )
+    - [OsmAND](http://wiki.openstreetmap.org/wiki/OsmAnd)
+  - Gamify map editiong with [MapRoulette](http://wiki.openstreetmap.org/wiki/MapRoulette)
 
 4:00, **Wrap-up Discussion**
   - Complete course evalutions
@@ -69,10 +78,10 @@ _____
   - [LearnOSM.org](http://learnosm.org/en/editing/id-editor/) provides free tutorials written at beginner, intermediate, and advanced levels using all open-source and freely available software, including: iD, JOSM, PostGIS, and QGIS software.  
 
 #### OpenStreetMap Community Communication Channels  
-  - Talk directly to other mappers in realtime using IRC  
+  - [Talk directly to other mappers](http://wiki.openstreetmap.org/wiki/Beginners_Guide_1.6#Community) in realtime using IRC 
   - Join and post messages to email listservs, [OSM mailing lists](http://wiki.openstreetmap.org/wiki/Mailing_lists)
   - Follow OSM leaders on Twitter  
-  - Watch presentations from previous OpenStreetMap conferences  
+  - Attend a *State of the Map* OSM conference;  explore archives of [previous OSM conferences](http://wiki.openstreetmap.org/wiki/State_of_the_Map_US#State_of_the_Map_U.S._.28SotM-US.29) including [slides and video recordings](http://wiki.openstreetmap.org/wiki/State_Of_The_Map_U.S._2014/Video_recordings) of presentations!
   - Organize or attend a local #mapathon  
 
 #### Volunteer Technical Communities  
