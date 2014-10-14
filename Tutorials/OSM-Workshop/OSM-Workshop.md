@@ -1,7 +1,7 @@
 #Learn OpenStreetMap in an Afternoon
 ## Tuesday, October 14, 2014
 
-My name is Ryan Lash, and I'm excited to share with you some things I've learned about OpenStreetMap.  I first learned of OSM in 2010 after the Haiti Earthquake, but I didn't start mapping until about 2 years ago when I was interested in mapping my neighborhood in Atlanta.  Since then, my time and energy and spent mapping has increased, and my interest in using OSM in my public health work has grown.  I am now using OSM data for some of my CDC projects, as are several other CDC friends, and I would like to share this knowledge with you so we can begin to grow a CDC OSM community.
+My name is Ryan Lash, and I am excited to share with you some things I have learned about OpenStreetMap.  I first heard of OSM in 2010 after the Haiti Earthquake, but I didn't start contributing to OSM until about 2 years ago when I was interested in mapping my neighborhood in Atlanta.  Since then, my time and energy and spent mapping has increased, and my interest in using OSM in my public health work has grown.  I am now using OSM data for some of my CDC projects, as are several other CDC friends, and I would like to share this knowledge with you so we can begin to grow a CDC OSM community.
 
 1:00, **Make sure computers and wi-fi are working** 
   - Go to the [OSM Account Login webpage](https://www.openstreetmap.org/login?referer=%2F) and create an account.  If you already have an account, make sure you can login.  
