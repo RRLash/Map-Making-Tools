@@ -38,12 +38,10 @@ My name is Ryan Lash, and I am excited to share with you some things I have lear
     - Connecting to a Web-Mapping Service (WMS)
   - Using the Tasking Manager
     - [HOT Tasking Manager](http://tasks.hotosm.org/)
-
 2:35, **Hands-on HOT Mapping**
   - Head on over to the [HOT Tasking Manager](http://tasks.hotosm.org/)
   - Review tagging conventions for less-developed countries- OSM wiki-page [Africa Highway Tag](https://wiki.openstreetmap.org/wiki/Highway_Tag_Africa)
-  - See the [ ](http://wiki.openstreetmap.org/wiki/User:Bgirardot/Typical_Road_and_Residential_Task)
-	
+  - Review the [West Africa HOT Mapping Tips](http://wiki.openstreetmap.org/wiki/User:Bgirardot/Typical_Road_and_Residential_Task)  
 3:15, **Hands-on Data Download** 
   - Screenshots from OSM Main Page
   - [GEOFABRIK downloads](http://download.geofabrik.de/): No account needed. Data for download is Updated roughly once every 24hrs. Download zipped .shp and .osm files based on a given country or administrative units.  
