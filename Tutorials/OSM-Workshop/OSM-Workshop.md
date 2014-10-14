@@ -5,36 +5,37 @@ My name is Ryan Lash, and I'm excited to share with you some things I've learned
 
 1:00, **Make sure computers and wi-fi are working** 
   - Go to the [OSM Account Login webpage](https://www.openstreetmap.org/login?referer=%2F) and create an account.  If you already have an account, make sure you can login.  
-1:10, **Start introductions**  
 
-1:20, **Show some slides**  
+1:10, **Introductions**  
+
+1:25, **Show some slides**  
   - Data Coverage
   - Data License  
   - Digital Data format (Tags; Key:Value)  
 
-1:30, **Data Editing in iD**  
+1:45, **Data Editing in iD**  
   - Add your house  
   - Add your driveway  
   - Add 4 more POIs  
 
-1:50, **Discuss Editing Experience**  
+2:00, **Discuss Editing Experience**  
   - Demo Potlatch
   - Demo JOSM
-  - Examine the Wiki  
+  - Demonstrate using the OSM Wiki to understand tagging conventions
 
   
-2:00,  -- Break --  
+2:15,  -- Break --  
 
 
-2:05, **More background on OSM and Humanitarian OpenStreet Map (HOT)**  
+2:20, **More background on OSM and Humanitarian OpenStreet Map (HOT)**  
   - HOT History and Community (State Department MapGive, Red Cross, MSF, CDC?)  
   - HOT Coordination between organizations  
   - HOT External Data Sources
   - Using the Tasking Manager
 
-2:15, **Hands-on HOT Mapping**
+2:35, **Hands-on HOT Mapping**
 	
-3:00, **Hands-on Data Download** 
+3:15, **Hands-on Data Download** 
   - Screenshots from OSM Main Page
   - GeoFabrik  
   - WeoGeo  
