@@ -5,7 +5,7 @@ My name is Ryan Lash, and I am excited to share with you some things I have lear
 1:00, **Make sure computers and wi-fi are working** 
   - Go to the [OSM Account Login webpage](https://www.openstreetmap.org/login?referer=%2F) and create an account.  If you already have an account, make sure you can login.  
 
-1:10, **Introductions**  
+1:10, **Introductions by workshop attendees**  
 
 1:25, **Show some slides**  
   - Data Coverage
