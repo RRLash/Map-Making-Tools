@@ -4,36 +4,32 @@
 My name is Ryan Lash, and I'm excited to share with you some things I've learned about OpenStreetMap.  I first learned of OSM in 2010 after the Haiti Earthquake, but I didn't start mapping until about 2 years ago when I was interested in mapping my neighborhood in Atlanta.  Since then, my time and energy and spent mapping has increased, and my interest in using OSM in my public health work has grown.  I am now using OSM data for some of my CDC projects, as are several other CDC friends, and I would like to share this knowledge with you so we can begin to grow a CDC OSM community.
 
 * 1:00, **Make sure computers and wi-fi are working** 
-   - Go to the [OSM Account Login webpage](https://www.openstreetmap.org/login?referer=%2F) and create an account.  If you already have an account, make sure you can login.  
+  - Go to the [OSM Account Login webpage](https://www.openstreetmap.org/login?referer=%2F) and create an account.  If you already have an account, make sure you can login.  
 * 1:10, **Start introductions**  
 * 1:20, **Show some slides**  
-   - Data Coverage
-   - Data License  
-   - Digital Data format (Tags; Key:Value)  
+  - Data Coverage
+  - Data License  
+  - Digital Data format (Tags; Key:Value)  
 * 1:30, **Data Editing in iD**  
-   - Add your house  
-   - Add your driveway  
-   - Add 4 more POIs  
+  - Add your house  
+  - Add your driveway  
+  - Add 4 more POIs  
 * 1:50, **Discuss Editing Experience**  
   - Demo Potlatch
   - Demo JOSM
   - Examine the Wiki
-2:00, Introduce HOT
-	HOT History and Community (State Department MapGive, Red Cross, MSF, CDC?)
-	HOT Coordination between organizations
-	HOT External Data Sources
-	Using the Tasking Manager	
-	Mention VTC, 
-Digital Humanitarian Network, Guidance for Collaborating with Formal Humanitarian Organizations, http://reliefweb.int/report/world/guidance-collaborating-formal-humanitarian-organizations
-
-Digital Humanitarian Network, Guidance for Collaborating with Volunteer & Technical Communities, http://reliefweb.int/report/world/guidance-collaborating-volunteer-technical-communities 
-
-1:30, hands on data download
-	Screenshots from OSM Main Page
-GeoFabrik
-WeoGeo
-Overpass Turbo
-GeoConverter
+* 2:00, **More background on OSM and Humanitarian OpenStreet Map (HOT)**  
+  - HOT History and Community (State Department MapGive, Red Cross, MSF, CDC?)  
+  - HOT Coordination between organizations  
+  - HOT External Data Sources
+  - Using the Tasking Manager	
+	
+1:30, hands on data download 
+  - Screenshots from OSM Main Page
+  - GeoFabrik  
+  - WeoGeo  
+  - Overpass Turbo
+  - GeoConverter
 
 2:00, 5 minute break
 .
@@ -74,3 +70,6 @@ I think OSM is an incredibly valuable tool, and I think everyone should know abo
    * 
    
 ### Additional Resources:
+**Volunteer Technical Communities**  
+  - Digital Humanitarian Network, *[Guidance for Collaborating with Formal Humanitarian Organizations](http://reliefweb.int/report/world/guidance-collaborating-formal-humanitarian-organizations)*  
+  - Digital Humanitarian Network, *[Guidance for Collaborating with Volunteer & Technical Communities](http://reliefweb.int/report/world/guidance-collaborating-volunteer-technical-communities)*
