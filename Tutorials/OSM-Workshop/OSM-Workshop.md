@@ -72,7 +72,6 @@ My name is Ryan Lash, and I am excited to share with you some things I have lear
 4:00, **Wrap-up Discussion**
   - Complete course evalutions
 
-   5. Help out others by contribuing to specific mapping projects, by joining the [Humanitarian OpenStreetMap Team (HOT)](http://hot.openstreetmap.org/get-involved) or by participating in a [Missing Maps](http://wiki.openstreetmap.org/wiki/Missing_Maps_Project) mapathon.
 
 _____
 ### Additional Resources (list is woefully incomplete):  
