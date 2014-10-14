@@ -66,8 +66,7 @@ _____
 ### Additional Resources:  
 _____
 #### Learn about OSM Tools
-  -  Start with [MapGive](http://wwww.mapgive.state.gov), and watch the [Why you should map](http://mapgive.state.gov/why-map/) video.  Follow the instructions on the [Learn to map](http://mapgive.state.gov/learn-to-map/) webpage to create an OpenStreetMap account.  
-  - Learn how to edit OSM using the iD Editor- Follow along with the MapGive [Learn how to map in OpenStreetMap](http://mapgive.state.gov/learn-to-map/) video (11 minutes), or follow along with this succint tutorial from [learnOSM.org](http://learnosm.org/en/editing/id-editor/).  
+  - [LearnOSM.org](http://learnosm.org/en/editing/id-editor/) provides free tutorials written at beginner, intermediate, and advanced levels using all open-source and freely available software, including: iD, JOSM, PostGIS, and QGIS software.  
 
 #### OpenStreetMap Community Communication Channels  
   - Talk directly to other mappers in realtime using IRC  
