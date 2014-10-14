@@ -19,8 +19,8 @@ My name is Ryan Lash, and I am excited to share with you some things I have lear
   - Take a look at MapRoulette
 
 2:00, **Discuss Editing Experience**  
-  - Demo Potlatch
-  - Demo JOSM
+  - Demo [Potlatch](http://wiki.openstreetmap.org/wiki/Potlatch_2) (incase you have to edit with MS Internet Explorer!)
+  - Demonstrate advanced editing with [JOSM](http://learnosm.org/en/beginner/start-josm/)
   - Demonstrate using the OSM Wiki to understand tagging conventions
     - Explore all the different things that are already mapped in OSM by browsing the [map](openstreetmap.org) and by visiting the [OSM Wiki Map Features](http://wiki.osm.org/wiki/Map_Features) page.  
     - [Taginfo](http://taginfo.openstreetmap.org/): See word cloud of most popular OSM tag Keys, and invidual statistics for each tag used.    
@@ -35,7 +35,9 @@ My name is Ryan Lash, and I am excited to share with you some things I have lear
   - HOT History and Community (State Department MapGive, Red Cross, MSF, CDC?)  
   - HOT Coordination between organizations
     - Ex: OSM wiki-page [2014 West Africa Ebola Response](https://wiki.openstreetmap.org/wiki/2014_West_Africa_Ebola_Response)
-  - HOT External Data Sources
+  - HOT Mapping from Bing
+    - [Use this map](http://ant.dev.openstreetmap.org/bingimageanalyzer/) to find out if there is high-resolution Bing Coverage
+  - HOT External Data Sources  
     - Connecting to a Web-Mapping Service (WMS)
   - Using the Tasking Manager
     - [HOT Tasking Manager](http://tasks.hotosm.org/)
