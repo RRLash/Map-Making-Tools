@@ -1,5 +1,5 @@
-#Learn OpenStreetMap in an Afternoon
-## Tuesday, October 14, 2014
+##Learn OpenStreetMap in an Afternoon
+#### Tuesday, October 14, 2014
 
 My name is Ryan Lash, and I am excited to share with you some things I have learned about OpenStreetMap.  I first heard of OSM in 2010 after the Haiti Earthquake, but I didn't start contributing to OSM until about 2 years ago when I was interested in mapping my neighborhood in Atlanta.  Since then, my time and energy and spent mapping has increased, and my interest in using OSM in my public health work has grown.  I am now using OSM data for some of my CDC projects, as are several other CDC friends, and I would like to share this knowledge with you so we can begin to grow a CDC OSM community.
 
@@ -48,7 +48,7 @@ My name is Ryan Lash, and I am excited to share with you some things I have lear
   - [HOT Exports](http://export.hotosm.org/): Free account required. Users can select their own AOI. Download only the features/tags you want by creating your own download preset, or choose from a tag presets.  Data downloaded is from current OSM database. Queries can be saved to the users account, and can be rerun whenever refreshed data is desired. A significant limitation to this tool is that it does not support exports for all parts of the globe.  See the [OSM Wiki- HOT Export](http://wiki.openstreetmap.org/wiki/HOT_Exports) page for a map of areas covered by this tool, and for more information on how to use it.
 
 3:30, **Quick survey of other OSM tools and applications**  
-  - [MapOSMatic](http://www.maposmatic.org/) Create mapbooks from Mapnik for easy download and printing.
+  - [MapOSMatic](http://www.maposmatic.org/): Create mapbooks from Mapnik for easy download and printing.
   - GeoConverter 
 
 4:00, **Wrap-up Discussion**
@@ -56,8 +56,9 @@ My name is Ryan Lash, and I am excited to share with you some things I have lear
 
    5. Help out others by contribuing to specific mapping projects, by joining the [Humanitarian OpenStreetMap Team (HOT)](http://hot.openstreetmap.org/get-involved) or by participating in a [Missing Maps](http://wiki.openstreetmap.org/wiki/Missing_Maps_Project) mapathon.
 
-
+...
 ### Additional Resources:  
+...
 #### Learn about OSM Tools
   -  Start with [MapGive](http://wwww.mapgive.state.gov), and watch the [Why you should map](http://mapgive.state.gov/why-map/) video.  Follow the instructions on the [Learn to map](http://mapgive.state.gov/learn-to-map/) webpage to create an OpenStreetMap account.  
   - Learn how to edit OSM using the iD Editor- Follow along with the MapGive [Learn how to map in OpenStreetMap](http://mapgive.state.gov/learn-to-map/) video (11 minutes), or follow along with this succint tutorial from [learnOSM.org](http://learnosm.org/en/editing/id-editor/).  
