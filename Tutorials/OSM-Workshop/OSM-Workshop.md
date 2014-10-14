@@ -56,9 +56,9 @@ My name is Ryan Lash, and I am excited to share with you some things I have lear
 
    5. Help out others by contribuing to specific mapping projects, by joining the [Humanitarian OpenStreetMap Team (HOT)](http://hot.openstreetmap.org/get-involved) or by participating in a [Missing Maps](http://wiki.openstreetmap.org/wiki/Missing_Maps_Project) mapathon.
 
-...
+_____
 ### Additional Resources:  
-...
+_____
 #### Learn about OSM Tools
   -  Start with [MapGive](http://wwww.mapgive.state.gov), and watch the [Why you should map](http://mapgive.state.gov/why-map/) video.  Follow the instructions on the [Learn to map](http://mapgive.state.gov/learn-to-map/) webpage to create an OpenStreetMap account.  
   - Learn how to edit OSM using the iD Editor- Follow along with the MapGive [Learn how to map in OpenStreetMap](http://mapgive.state.gov/learn-to-map/) video (11 minutes), or follow along with this succint tutorial from [learnOSM.org](http://learnosm.org/en/editing/id-editor/).  
