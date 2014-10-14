@@ -22,6 +22,7 @@ My name is Ryan Lash, and I am excited to share with you some things I have lear
   - Demo Potlatch
   - Demo JOSM
   - Demonstrate using the OSM Wiki to understand tagging conventions
+    - Explore all the different things that are already mapped in OSM by browsing the [map](openstreetmap.org) and by visiting the [OSM Wiki Map Features](http://wiki.osm.org/wiki/Map_Features) page.  [TagInfo](https://taginfo.openstreetmap.org/) provides nice tools for visualizing the different tags currently used in the OSM database.
 
   
 2:15,  -- Break --  
@@ -47,19 +48,9 @@ My name is Ryan Lash, and I am excited to share with you some things I have lear
 .
 .
 
-4:30pm
+4:00, **Wrap-up Discussion**
+  - Complete course evalutions
 
-
-### List of OpenStreetMap (OSM) tools     
-A summary of the different tools I use for querying and downloading OSM data.  
-
-##### OpenStreetMap (OSM) and Humanitarian OpenStreetMap Team (HOT)
-I think OSM is an incredibly valuable tool, and I think everyone should know about it. Here's how you can get started.   
-
-   1. Start with [MapGive](http://wwww.mapgive.state.gov), and watch the [Why you should map](http://mapgive.state.gov/why-map/) video.  Follow the instructions on the [Learn to map](http://mapgive.state.gov/learn-to-map/) webpage to create an OpenStreetMap account.  
-   2. Learn how to edit OSM using the iD Editor- it only takes a few minutes! You can continue to follow along with the MapGive [Learn how to map in OpenStreetMap](http://mapgive.state.gov/learn-to-map/) video (11 minutes), or follow along with this succint tutorial from [learnOSM.org](http://learnosm.org/en/editing/id-editor/).
-   3. Explore all the different things that are already mapped in OSM by browsing the [map](openstreetmap.org) and by visiting the [OSM Wiki Map Features](http://wiki.osm.org/wiki/Map_Features) page.  [TagInfo](https://taginfo.openstreetmap.org/) provides nice tools for visualizing the different tags currently used in the OSM database.
-   4. Connect with others in the OSM Community.  Join one (or a couple) of the [OSM mailing lists](http://wiki.openstreetmap.org/wiki/Mailing_lists).
    5. Help out others by contribuing to specific mapping projects, by joining the [Humanitarian OpenStreetMap Team (HOT)](http://hot.openstreetmap.org/get-involved) or by participating in a [Missing Maps](http://wiki.openstreetmap.org/wiki/Missing_Maps_Project) mapathon.
 
 ##### Data Export  
@@ -77,9 +68,13 @@ I think OSM is an incredibly valuable tool, and I think everyone should know abo
    * 
    
 ### Additional Resources:  
+#### Learn about OSM Tools
+  -  Start with [MapGive](http://wwww.mapgive.state.gov), and watch the [Why you should map](http://mapgive.state.gov/why-map/) video.  Follow the instructions on the [Learn to map](http://mapgive.state.gov/learn-to-map/) webpage to create an OpenStreetMap account.  
+  - Learn how to edit OSM using the iD Editor- Follow along with the MapGive [Learn how to map in OpenStreetMap](http://mapgive.state.gov/learn-to-map/) video (11 minutes), or follow along with this succint tutorial from [learnOSM.org](http://learnosm.org/en/editing/id-editor/).  
+
 #### OpenStreetMap Community Communication Channels  
   - Talk directly to other mappers in realtime using IRC  
-  - Join and post messages to email listservs  
+  - Join and post messages to email listservs, [OSM mailing lists](http://wiki.openstreetmap.org/wiki/Mailing_lists)
   - Follow OSM leaders on Twitter  
   - Watch presentations from previous OpenStreetMap conferences  
   - Organize or attend a local #mapathon  
