@@ -32,11 +32,17 @@ My name is Ryan Lash, and I am excited to share with you some things I have lear
 
 2:20, **More background on OSM and Humanitarian OpenStreet Map (HOT)**  
   - HOT History and Community (State Department MapGive, Red Cross, MSF, CDC?)  
-  - HOT Coordination between organizations  
+  - HOT Coordination between organizations
+    - Ex: OSM wiki-page [2014 West Africa Ebola Response](https://wiki.openstreetmap.org/wiki/2014_West_Africa_Ebola_Response)
   - HOT External Data Sources
+    - Connecting to a Web-Mapping Service (WMS)
   - Using the Tasking Manager
+    - [HOT Tasking Manager](http://tasks.hotosm.org/)
 
 2:35, **Hands-on HOT Mapping**
+  - Head on over to the [HOT Tasking Manager](http://tasks.hotosm.org/)
+  - Review tagging conventions for less-developed countries- OSM wiki-page [Africa Highway Tag](https://wiki.openstreetmap.org/wiki/Highway_Tag_Africa)
+  - See the [ ](http://wiki.openstreetmap.org/wiki/User:Bgirardot/Typical_Road_and_Residential_Task)
 	
 3:15, **Hands-on Data Download** 
   - Screenshots from OSM Main Page
