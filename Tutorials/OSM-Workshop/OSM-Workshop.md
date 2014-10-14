@@ -75,7 +75,7 @@ My name is Ryan Lash, and I am excited to share with you some things I have lear
    5. Help out others by contribuing to specific mapping projects, by joining the [Humanitarian OpenStreetMap Team (HOT)](http://hot.openstreetmap.org/get-involved) or by participating in a [Missing Maps](http://wiki.openstreetmap.org/wiki/Missing_Maps_Project) mapathon.
 
 _____
-### Additional Resources:  
+### Additional Resources (list is woefully incomplete):  
 _____
 #### Learn about OSM Tools
   - [LearnOSM.org](http://learnosm.org/en/editing/id-editor/) provides free tutorials written at beginner, intermediate, and advanced levels using all open-source and freely available software, including: iD, JOSM, PostGIS, and QGIS software.  
