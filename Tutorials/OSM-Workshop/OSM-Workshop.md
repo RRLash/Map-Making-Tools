@@ -19,10 +19,9 @@ My name is Ryan Lash, and I am excited to share with you some things I have lear
   - Take a look at MapRoulette
 
 2:00, **Discuss Editing Experience**  
-  - Demo [Potlatch](http://wiki.openstreetmap.org/wiki/Potlatch_2) (incase you have to edit with MS Internet Explorer!)
+  - Demoonstrate mapping in [Potlatch](http://wiki.openstreetmap.org/wiki/Potlatch_2) (incase you have to edit with MS Internet Explorer!)
   - Demonstrate advanced editing with [JOSM](http://learnosm.org/en/beginner/start-josm/)
-  - Demonstrate using the OSM Wiki to understand tagging conventions
-    - Explore all the different things that are already mapped in OSM by browsing the [map](openstreetmap.org) and by visiting the [OSM Wiki Map Features](http://wiki.osm.org/wiki/Map_Features) page.  
+  - Explore all the different things that are already mapped in OSM by browsing the [map](openstreetmap.org) and by visiting the [OSM Wiki Map Features](http://wiki.osm.org/wiki/Map_Features) page.  
     - [Taginfo](http://taginfo.openstreetmap.org/): See word cloud of most popular OSM tag Keys, and invidual statistics for each tag used.    
     - [Neis One!](http://neis-one.org/): The personal website of Pascal Neis, there are lots of great webtools for tracking and analyzing edits to OSM by location, individual user name, and change sets. [How did you contributed to OpenStreetMap](http://hdyc.neis-one.org/) generates a custom activity report for a specific username. [Your OSM HeatMap](http://yosmhm.neis-one.org/) generates a custom heat map based on aggregating the location of a single users edits globally.   [Who's around me](http://resultmaps.neis-one.org/oooc) shows the location of other users based on a mean location of their edits for a specific point in time, or averages over 6 months.  
     - [ito! OSM Mapper](http://www.itoworld.com/static/openstreetmap_tools/osm_mapper.html) Account required.  Generate maps and reports of editing activity by user, by tag, or by time for a user defined area.  Maps and tables are exportable in several easily accessible formats.
@@ -60,6 +59,8 @@ My name is Ryan Lash, and I am excited to share with you some things I have lear
   - [MapOSMatic](http://www.maposmatic.org/): Create mapbooks from Mapnik for easy download and printing.
   - [MapBox](https://www.mapbox.com/): Design and publish beautivul online maps
   - [NPTiles](http://www.nps.gov/npmap/park-tiles/#4/39.00/-96.00): Pretty good for a federal agency
+  - There are [a lot of different ways](http://wiki.openstreetmap.org/wiki/Mapping_techniques) to add data to osm  
+    - I am still waiting for the right project to use [Field Papers](http://fieldpapers.org/)!
   - OSM-wiki list of [iOS Mobile Apps](http://www.nps.gov/npmap/park-tiles/#4/39.00/-96.00)
     - [Pushpin](http://wiki.openstreetmap.org/wiki/Pushpin_OSM):  efficiently add POI data from Bing Imagery or GPS with this very easy to use interface.  Unfortunately, it doesn't work for disconnected editing
     - [GoMap!](http://wiki.openstreetmap.org/wiki/Go_Map!!):  good for editing lines and polygons, although the interface is a little clunky
