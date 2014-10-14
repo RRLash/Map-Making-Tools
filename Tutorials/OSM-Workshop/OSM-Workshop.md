@@ -77,6 +77,6 @@ I think OSM is an incredibly valuable tool, and I think everyone should know abo
    * 
    
 ### Additional Resources:
-**Volunteer Technical Communities**  
+#### Volunteer Technical Communities  
   - Digital Humanitarian Network, *[Guidance for Collaborating with Formal Humanitarian Organizations](http://reliefweb.int/report/world/guidance-collaborating-formal-humanitarian-organizations)*  
   - Digital Humanitarian Network, *[Guidance for Collaborating with Volunteer & Technical Communities](http://reliefweb.int/report/world/guidance-collaborating-volunteer-technical-communities)*
