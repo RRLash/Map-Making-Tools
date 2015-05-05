@@ -157,6 +157,15 @@ out body;
 >;
 out skel qt;
 ```
+## Query buildings which you were the last editor of.  
+[This script](http://overpass-turbo.eu/s/9bm) was shared by arch_arch@t-online.de via [this post](https://lists.openstreetmap.org/pipermail/hot/2015-May/008782.html) to Humanitarian OpenStreetMap Team listserve
+```
+/*
+/*replace "4rch" with your username.*/
+
+way["building"]({{bbox}})(user:"Ryan Lash");/*added by auto repair*/(._;>;);/*end of auto repair*/out meta;
+```
+
 ## Export results to JOSM
 You can tell Overpass Turbo to open your returned query results in JOSM if you already have JOSM open and running.  To allow JOSM to receive a command from your web-browser, you will need to make certain that you have enabled Remote Control in the JOSM Preferences settings.  To double-check this, open JOSM, choose the Edit drop-down menu at the top-left of the screen, and select Preferences (the last item on the drop-down list).  The Preferences window will open up, and each of the icons stacked down the left-side of the window will open a different Preference tab.  Click on the icon that looks like a remote control emitting a signal (second one up from the bottom).  Make sure the "Enable remote control" option button is checked, with all of the additional options checked in the "Permitted actions:" pane.
 
