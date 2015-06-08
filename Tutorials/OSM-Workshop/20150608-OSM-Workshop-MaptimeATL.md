@@ -2,6 +2,13 @@
 
 My name is Ryan Lash.  I make maps at CDC and am a PhD student in the Geography Department at UGA.  Follow me on twitter [@RRLash](https://twitter.com/rrlash)
 
+The goal for tonight is to have everyone contribute to OpenStreetMap
+
+You'll need to do the following:   
+  - Visit [OSM.org](https://www.openstreetmap.org) and create an [OpenStreetMap Account](https://www.openstreetmap.org/user/new)
+    - Your username will be visible to the public, and will be associated with all of your editing activities
+  - Login to your account using a modern browser (*not InternetExplorer)
+
 **Start Editing OSM in a web-browser [iD Editor](http://learnosm.org/en/editing/id-editor/)**  
   - Add your house  
   - Add your driveway  
@@ -68,6 +75,3 @@ _____
   - Attend a *State of the Map* OSM conference;  explore archives of [previous OSM conferences](http://wiki.openstreetmap.org/wiki/State_of_the_Map_US#State_of_the_Map_U.S._.28SotM-US.29) including [slides and video recordings](http://wiki.openstreetmap.org/wiki/State_Of_The_Map_U.S._2014/Video_recordings) of presentations!
   - Organize or attend a local #mapathon  
 
-#### Volunteer Technical Communities  
-  - Digital Humanitarian Network, *[Guidance for Collaborating with Formal Humanitarian Organizations](http://reliefweb.int/report/world/guidance-collaborating-formal-humanitarian-organizations)*  
-  - Digital Humanitarian Network, *[Guidance for Collaborating with Volunteer & Technical Communities](http://reliefweb.int/report/world/guidance-collaborating-volunteer-technical-communities)*
