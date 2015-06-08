@@ -3,7 +3,7 @@ Welcome! This repo exists to help me learn how to use GitHub, to better document
 ***
 ***
 
-## [CDC OpenStreetMap Training Course Outline](/Tutorials/OSM-Workshop/OSM-Workshop.md) 
+## [MaptimeATL Hacknight: Hands-on w/ OpenStreetMap](/Tutorials/OSM-Workshop/20150608-OSM-Workshop-MaptimeATL.md) 
 
 ***
 ***
