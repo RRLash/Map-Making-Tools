@@ -45,7 +45,7 @@ def Reclass(Starbucks):
 ```
 Reclass( !Starbucks! )
 ```
-###Example setting values in a new field based on values in an exisiting fiels
+###Example setting values in a new field based on values in an exisiting fields
 Continuing with the data from above, I wanted to populate a new text field called "Recommend" based on its proximity to exisitng Starbuck locations.  The proximity to a Starbucks is already coded in the "Starbucks" field, and for each value in this field I wanted a corresponding recommendation in the "Recommend" field.
 
 Pre-Logic Script Code:
