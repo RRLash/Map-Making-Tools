@@ -66,5 +66,5 @@ def Update(Starbucks, Recommend):
 ```
 [OutputFieldName] =
 ```
-Reclass( !Starbucks!, !Recommend! )
+Update( !Starbucks!, !Recommend! )
 ```
