@@ -3,10 +3,6 @@ Welcome! This repo exists to help me learn how to use GitHub, to better document
 ***
 ***
 
-## [MaptimeATL Hacknight: Hands-on w/ OpenStreetMap](/Tutorials/OSM-Workshop/20150608-OSM-Workshop-MaptimeATL.md) 
-
-***
-***
 ### List of OpenStreetMap (OSM) tools     
 A summary of the different tools I use for querying and downloading OSM data.  
 
