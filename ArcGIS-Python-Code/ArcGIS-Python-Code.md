@@ -53,15 +53,15 @@ Pre-Logic Script Code:
 def Update(Starbucks, Recommend):
 
   if Starbucks == 0:
-     Recommend =  "Need to bring your own coffee"
+     Recommend =  "Be ready to make your own cappuccino"
      return Recommend
 
   if Starbucks == 1:
-    Recommend = "Probably can reach a Starbucks"
+    Recommend = "You can find a Starbucks, but you will have to drive"
     return Recommend
  
   if Starbucks == 2:
-    Recommend = "It easy to fin d a Starbucks"
+    Recommend = "You can easily find Starbucks coffee"
     return Recommend
 ```
 [OutputFieldName] =
